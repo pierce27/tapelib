@@ -1,0 +1,25 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  bsid: MyString
+  server: MyString
+  backupstamp: 1
+  bformat: MyString
+  btype: MyString
+  broot: MyString
+  tapelabel: MyString
+  voltag: MyString
+  size: 1
+  rev: MyString
+
+two:
+  bsid: MyString
+  server: MyString
+  backupstamp: 1
+  bformat: MyString
+  btype: MyString
+  broot: MyString
+  tapelabel: MyString
+  voltag: MyString
+  size: 1
+  rev: MyString

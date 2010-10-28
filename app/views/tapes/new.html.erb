@@ -1,0 +1,70 @@
+<% content_for :title, "New Tape" %>
+
+
+<h1>New tape</h1>
+
+<% form_for (@tape), :url => { :action => :create }  do |f|  %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label "Backupset ID: " %><br />
+    <%= f.text_field :bsid %>
+  </p>
+  <p>
+    <%= f.label "Server: " %><br />
+    <%= f.text_field :server %>
+  </p>
+  <p>
+    <%= f.label "Backup Stamp: "  %><br />
+    <%= f.text_field :backupstamp %>
+  </p>
+  <p>
+    <%= f.label :bformat, "Backup Format: " %><br/>
+    <%= f.collection_select :bformat, Tape::BFORMATS, :to_s, :to_s, :include_blank => true
+    %>
+  </p>
+  <p>
+    <%= f.label "Backup Format Revision" %><br />
+    <%= f.text_field :rev %>
+  </p>
+
+  <p>
+   <%= f.label "Backup Type: " %><br/>
+   <%= f.collection_select :btype, Tape::BTYPES, :to_s, :to_s, :include_blank => true
+    %>
+  </p>
+  <p>
+   <%= f.label  "Backup Client: " %><br/>
+   <%= f.collection_select :bclient, Tape::BCLIENTS, :to_s, :to_s, :include_blank => true
+    %>
+  </p>
+  <p>
+    <%= f.label "Root Path" %><br />
+    <%= f.text_field :broot %>
+  </p>
+  <p>
+    <%= f.label "Tape Label"  %><br />
+    <%= f.text_field :tapelabel %>
+  </p>
+  <p>
+    <%= f.label "Volume Tag" %><br />
+    <%= f.text_field :voltag %>
+  </p>
+  <p>
+    <%= f.label :size %><br />
+    <%= f.text_field :size %>
+  </p>
+  <p>
+    <%= f.label "Test Case: (Enter 0 if N/A)" %><br/>
+    <%= f.text_field :testcase %>
+  <p>
+    <%= f.label :note %><br />
+    <%= f.text_area :note, :rows => 7 %>
+  </p>
+
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to_function 'Back', "history.back()" %>

@@ -1,0 +1,65 @@
+<% content_for :title, @tape.voltag %>
+
+
+<p>
+  <b> bsid:</b>
+  <%=h @tape.bsid %>
+</p>
+
+<p>
+  <b>Server:</b>
+  <%=h @tape.server %>
+</p>
+
+<p>
+  <b>Backupstamp:</b>
+  <%=h @tape.backupstamp %>
+</p>
+
+<p>
+  <b>Bformat:</b>
+  <%=h @tape.bformat %>
+</p>
+
+<p>
+  <b>Btype:</b>
+  <%=h @tape.btype %>
+</p>
+<p>
+  <b>Client Type:</b>
+  <%=h @tape.bclient %>
+<p>
+  <b>Broot:</b>
+  <%=h @tape.broot %>
+</p>
+
+<p>
+  <b>Tapelabel:</b>
+  <%=h @tape.tapelabel %>
+</p>
+
+<p>
+  <b>Voltag:</b>
+  <%=h @tape.voltag %>
+</p>
+
+<p>
+  <b>Size:</b>
+  <%=h @tape.size %>
+</p>
+
+<p>
+  <b>Revision:</b>
+  <%=h @tape.rev %>
+</p>
+<p>
+  <b>Note:</b>
+  <%=h @tape.note%>
+<p>
+
+<p>
+ <b>TC: </b>
+ <%=if @tape.testcase != 0 then link_to (@tape.testcase, "http://kama.tworiverlabs.com/bugs/tr_show_case.cgi?case_id=#{@tape.testcase}") else "none" end %>
+</p>
+<%= link_to 'Edit', edit_tape_path(@tape) %> |
+<%= link_to_function 'Back', "history.back()" %>

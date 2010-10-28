@@ -1,0 +1,491 @@
+153700000140CF5A-ProActive Backup from Client Agent | 153700000140CF5A-ProActive Backup from Client Agent | XIANG  |           0 |       8 |     0 | C:\\       | 9A3E-017-7/16/07 11:15 AM | SDN0QX3H | 10552344576 |            |       1
+153700000141275B-ProActive Backup from Client Agent | 153700000141275B-ProActive Backup from Client Agent | XIANG  |           0 |       8 |     0 | E:\\       | 9A3E-017-7/16/07 11:15 AM | SDN0QX3H | 10552344576 |            |       1
+153700110100245B-ProActive Backup from Client Agent | 153700110100245B-ProActive Backup from Client Agent | SNAKE  |           0 |       8 |     0 | C:\\Program Files\\CA\\BrightStor ARCserve Backup\\DR\\XIANG\\ | 9A3E-017-7/16/07 11:15 AM | SDN0QX3H | 10552344576 |            |       1
+153700110100435A-Snake-2 | 153700110100435A-Snake-2 | SNAKE  |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | 9A3E-017-7/16/07 11:15 AM | SDN0QX3H | 10552344576 |            |       2
+153700110100555A-Snake-2 | 153700110100555A-Snake-2 | SNAKE  |           0 |       8 |     0 | dbaexchis\\second storage group\\ | 9A3E-017-7/16/07 11:15 AM | SDN0QX3H | 10552344576 |            |       2
+153700110100C159-Snake | 153700110100C159-Snake | SNAKE  |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | 9A3E-017-7/16/07 11:15 AM | SDN0QX3H | 10552344576 |            |       2
+153700110100D259-Snake | 153700110100D259-Snake | SNAKE  |           0 |       8 |     0 | dbaexchis\\second storage group\\ | 9A3E-017-7/16/07 11:15 AM | SDN0QX3H | 10552344576 |            |       2
+1C3700010100616F-volga1pstbackup | 1C3700010100616F-volga1pstbackup | VOLGA1 |           0 |       8 |     0 | C:\\       | 6FC5-001-8/28/07 1:59 PM | SDN0QX3L | 61621927936 |            |       1
+1C3700010100F580-volga1pstbackup | 1C3700010100F580-volga1pstbackup | VOLGA1 |           0 |       8 |     0 | E:\\lpst_new\\ | 6FC5-001-8/28/07 1:59 PM | SDN0QX3L | 61621927936 |            |       1
+273700010100804E-yukon_corpus1_traverse | 273700010100804E-yukon_corpus1_traverse | YUKON  |           0 |       8 |     0 | Corpus1\\  | 6FC5-001-8/28/07 1:59 PM | SDN0QX3L | 61621927936 |            |       1
+2E3700110100E343-Sutlej_serverlevel | 2E3700110100E343-Sutlej_serverlevel | SUTLEJ |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | 9A3E-017-7/16/07 11:15 AM | SDN0QX3H | 10552344576 |            |       2
+2E3700110100E343-Sutlej_serverlevel | 2E3700110100E343-Sutlej_serverlevel | SUTLEJ |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | 9A3E-018-7/16/07 11:15 AM | SDN0QX3K | 72372518912 |            |       2
+2E3700120100EF4A-Sutlej_serverlevel_again | 2E3700120100EF4A-Sutlej_serverlevel_again | SUTLEJ |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | 9A3E-018-7/16/07 11:15 AM | SDN0QX3K | 72372518912 |            |       2
+523700010100084B-volga-2 and snake | 523700010100084B-volga-2 and snake | SNAKE  |           0 |       8 |     0 | dbaexchis\\second storage group\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+5237000101000C4B-volga-2 and snake | 5237000101000C4B-volga-2 and snake | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+5237000101000D4B-volga-2 and snake | 5237000101000D4B-volga-2 and snake | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+523700010100394B-volga-2 and snake-second serverlevel | 523700010100394B-volga-2 and snake-second serverlevel | SNAKE  |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+5237000101004F57-Yukon C$ | 5237000101004F57-Yukon C$ | YUKON  |           0 |       8 |     0 | C:\\       | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       1
+523700010100694B-volga-2 and snake-second serverlevel | 523700010100694B-volga-2 and snake-second serverlevel | SNAKE  |           0 |       8 |     0 | dbaexchis\\second storage group\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+5237000101006E4B-volga-2 and snake-second serverlevel | 5237000101006E4B-volga-2 and snake-second serverlevel | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+5237000101006F4B-volga-2 and snake-second serverlevel | 5237000101006F4B-volga-2 and snake-second serverlevel | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+523700010100797A-Priti | 523700010100797A-Priti | YUKON  |           0 |       8 |     0 | C:\\       | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       1
+5237000101009553-Yukon C$ | 5237000101009553-Yukon C$ | YUKON  |           0 |       8 |     0 | C:\\       | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       1
+523700010100B37C-Priti1 | 523700010100B37C-Priti1 | YUKON  |           0 |       8 |     0 | Corpus1\\Domain-Local-Group\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       1
+523700010100D74A-volga-2 and snake | 523700010100D74A-volga-2 and snake | SNAKE  |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+523700010100F75A-Yukon C$-corpus1 | 523700010100F75A-Yukon C$-corpus1 | YUKON  |           0 |       8 |     0 | C:\\Corpus1\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       1
+52D700000109014D-volga-2 document level | 52D700000109014D-volga-2 document level | SNAKE  |           0 |       8 |     0 | dbaexsis\\second storage group\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+52D700000109054D-volga-2 document level | 52D700000109054D-volga-2 document level | SNAKE  |           0 |       8 |     0 | dbaexsis\\Public Folders[First Storage Group]\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+52D700000109F14C-volga-2 document level | 52D700000109F14C-volga-2 document level | SNAKE  |           0 |       8 |     0 | dbaexsis\\First Storage Group\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+5337000101000720-scheduled volga-2 and snake | 5337000101000720-scheduled volga-2 and snake | SNAKE  |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+533700010100164D-yukon-mbox files only | 533700010100164D-yukon-mbox files only | YUKON  |           0 |       8 |     0 | C:\\mbox files\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       1
+533700010100164D-yukon-mbox files only | 533700010100164D-yukon-mbox files only | YUKON  |           0 |       8 |     0 | C:\\mbox files\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       1
+5337000101003520-scheduled volga-2 and snake | 5337000101003520-scheduled volga-2 and snake | SNAKE  |           0 |       8 |     0 | dbaexchis\\second storage group\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+5337000101003A20-scheduled volga-2 and snake | 5337000101003A20-scheduled volga-2 and snake | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+5337000101003B20-scheduled volga-2 and snake | 5337000101003B20-scheduled volga-2 and snake | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+5337000101005A4C-snake and volga-2 server again | 5337000101005A4C-snake and volga-2 server again | SNAKE  |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+5337000101008A4C-snake and volga-2 server again | 5337000101008A4C-snake and volga-2 server again | SNAKE  |           0 |       8 |     0 | dbaexchis\\second storage group\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+533700010100A44C-snake and volga-2 server again | 533700010100A44C-snake and volga-2 server again | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+533700010100A54C-snake and volga-2 server again | 533700010100A54C-snake and volga-2 server again | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 673D-001-10/18/07 9:22 AM | SDN1C32J | 26657423360 |            |       2
+533700020100717A-snake and volga-2 after adding message | 533700020100717A-snake and volga-2 after adding message | SNAKE  |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+533700020100A57A-snake and volga-2 after adding message | 533700020100A57A-snake and volga-2 after adding message | SNAKE  |           0 |       8 |     0 | dbaexchis\\second storage group\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+533700020100B885-snake and volga-2 incremental | 533700020100B885-snake and volga-2 incremental | SNAKE  |           0 |       8 |    10 | dbaexchis\\First Storage Group\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+533700020100BA85-snake and volga-2 incremental | 533700020100BA85-snake and volga-2 incremental | SNAKE  |           0 |       8 |    10 | dbaexchis\\second storage group\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+533700020100C07A-snake and volga-2 after adding message | 533700020100C07A-snake and volga-2 after adding message | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+533700020100C17A-snake and volga-2 after adding message | 533700020100C17A-snake and volga-2 after adding message | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+533700020100D285-snake and volga-2 incremental | 533700020100D285-snake and volga-2 incremental | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+533700020100D385-snake and volga-2 incremental | 533700020100D385-snake and volga-2 incremental | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+5637000201002C4D-yukon-corpus1 | 5637000201002C4D-yukon-corpus1 | YUKON  |           0 |       8 |     0 | C:\\Corpus1\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       1
+5637000201009953-vistula-server | 5637000201009953-vistula-server | VISTULA |           0 |       8 |     0 | dbaexch\\Directory\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+563700020100C37B-snake and volga-2 incr2 | 563700020100C37B-snake and volga-2 incr2 | SNAKE  |           0 |       8 |    10 | dbaexchis\\First Storage Group\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+5737000101001975-snake and volga-2 full | 5737000101001975-snake and volga-2 full | SNAKE  |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | 4A1D-001-10/23/07 2:40 PM | SDN1C33B | 5183700992 |            |       2
+5737000101005375-snake and volga-2 full | 5737000101005375-snake and volga-2 full | SNAKE  |           0 |       8 |     0 | dbaexchis\\second storage group\\ | 4A1D-001-10/23/07 2:40 PM | SDN1C33B | 5183700992 |            |       2
+5737000101006D75-snake and volga-2 full | 5737000101006D75-snake and volga-2 full | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 4A1D-001-10/23/07 2:40 PM | SDN1C33B | 5183700992 |            |       2
+5737000101006E75-snake and volga-2 full | 5737000101006E75-snake and volga-2 full | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 4A1D-001-10/23/07 2:40 PM | SDN1C33B | 5183700992 |            |       2
+573700010100CF76-search test data from | 573700010100CF76-search test data from | PARAGUAY |           0 |       8 |     0 | C:\\Program Files\\test data\\ | 4A1D-001-10/23/07 2:40 PM | SDN1C33B | 5183700992 |            |       1
+573700010100D076-search test data from | 573700010100D076-search test data from | SUTLEJ |           0 |       8 |     0 | C:\\Program Files\\test files\\ | 4A1D-001-10/23/07 2:40 PM | SDN1C33B | 5183700992 |            |       1
+573700010100F276-search test data from | 573700010100F276-search test data from | ZEYA   |           0 |       8 |     0 | C:\\Program Files\\ | 4A1D-001-10/23/07 2:40 PM | SDN1C33B | 5183700992 |            |       1
+573700010100F276-search test data from | 573700010100F276-search test data from | ZEYA   |           0 |       8 |     0 | C:\\Program Files\\ | 4A1D-002-10/23/07 2:40 PM | SDN1C339 | 3591569408 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-003-10/18/07 9:22 AM | SDN1C32K |  5184159744 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-004-10/18/07 9:22 AM | SDN1C32L |  5184159744 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-005-10/18/07 9:22 AM | SDN1C32M |  5184159744 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-006-10/18/07 9:22 AM | SDN1C32N |  5184159744 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-007-10/18/07 9:22 AM | SDN1C32O |  5184159744 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-008-10/18/07 9:22 AM | SDN1C32P |  5184159744 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-009-10/18/07 9:22 AM | SDN1C32Q |  5184159744 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-010-10/18/07 9:22 AM | SDN1C32R |  5184159744 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-011-10/18/07 9:22 AM | SDN1C32S |  5184159744 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-012-10/18/07 9:22 AM | SDN1C32T |  5184159744 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-013-10/18/07 9:22 AM | SDN1C32U |  5184159744 |            |       1
+5737000201001450-sutlej exchange as FS | 5737000201001450-sutlej exchange as FS | SUTLEJ |           0 |       8 |     0 | E:\\       | 673D-014-10/18/07 9:22 AM | SDN1C32V |  4559339520 |            |       1
+573700020100594E-sutlej:test | 573700020100594E-sutlej:test | SUTLEJ |           0 |       8 |     0 | C:\\Program Files\\test files\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       1
+573700020100904D-snake-volga-2-incragain | 573700020100904D-snake-volga-2-incragain | SNAKE  |           0 |       8 |    10 | dbaexchis\\First Storage Group\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+573700020100944E-sutlej:folder with special character | 573700020100944E-sutlej:folder with special character | SUTLEJ |           0 |       8 |     0 | C:\\!@@#$3\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       1
+5737000201009A4D-snake-volga-2-incragain | 5737000201009A4D-snake-volga-2-incragain | SNAKE  |           0 |       8 |    10 | dbaexchis\\second storage group\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+573700020100B34D-snake-volga-2-incragain | 573700020100B34D-snake-volga-2-incragain | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+573700020100B44D-snake-volga-2-incragain | 573700020100B44D-snake-volga-2-incragain | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       2
+573700020100B84C-zeya/c$ | 573700020100B84C-zeya/c$ | ZEYA   |           0 |       8 |     0 | C:\\Program Files\\ | 673D-002-10/18/07 9:22 AM | SDN1C324 | 26657685504 |            |       1
+84F200000115D6F0-volga2document | 84F200000115D6F0-volga2document | VOLGA-2 |           0 |       8 |     0 | dbaexsis\\Individual Mailboxes\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+853700000115D6F0-volga2document | 853700000115D6F0-volga2document | VOLGA-2 |           0 |       8 |     0 | dbaexsis\\Public Folders\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+864200000117D6F0-volga2document | 864200000117D6F0-volga2document | VOLGA-2 |           0 |       8 |     0 | dbaexsis\\Individual Mailboxes\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+868100000117D6F0-volga2document | 868100000117D6F0-volga2document | VOLGA-2 |           0 |       8 |     0 | dbaexsis\\Public Folders\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+86F00000011BD6F0-volga2document | 86F00000011BD6F0-volga2document | VOLGA-2 |           0 |       8 |     0 | dbaexsis\\Individual Mailboxes\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+872F0000011BD6F0-volga2document | 872F0000011BD6F0-volga2document | VOLGA-2 |           0 |       8 |     0 | dbaexsis\\Public Folders\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+Backup 00025-928080731-1 | Backup 00025 | ZEYA   |  1192638414 |       1 |     0 |           | SDN1R800  | SDN1R800 | 29879533568 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00026-928080731-2 | Backup 00026 | ZEYA   |  1192638524 |       1 |     0 |           | SDN1R800  | SDN1R800 | 29879533568 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00033-928080731-3 | Backup 00033 | ZEYA   |  1192654799 |       1 |     0 |           | SDN1R800  | SDN1R800 | 29879533568 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00038-928080731-4 | Backup 00038 | ZEYA   |  1192655992 |       1 |     0 |           | SDN1R800  | SDN1R800 | 29879533568 | Symantec Backup Exec 11.0.6235 |       2
+Backup 00045-928080731-10 | Backup 00045 | YUKON  |  1192677571 |       1 |     0 |           | SDN1R804  | SDN1R804 | 29879402496 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00045-928080731-11 | Backup 00045 | YUKON  |  1192677577 |       1 |     0 |           | SDN1R804  | SDN1R804 | 29879402496 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00045-928080731-12 | Backup 00045 | YUKON  |  1192677605 |       1 |     0 |           | SDN1R804  | SDN1R804 | 29879402496 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00045-928080731-13 | Backup 00045 | YUKON  |  1192679946 |       1 |     0 |           | SDN1R804  | SDN1R804 | 29879402496 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00045-928080731-13 | Backup 00045 | YUKON  |  1192679946 |       1 |     0 |           | SDN1R805  | SDN1R805 | 29879271424 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00045-928080731-14 | Backup 00045 | YUKON  |  1192680290 |       1 |     0 |           | SDN1R805  | SDN1R805 | 29879271424 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00045-928080731-15 | Backup 00045 | YUKON  |  1192680304 |       1 |     0 |           | SDN1R805  | SDN1R805 | 29879271424 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00045-928080731-16 | Backup 00045 | YUKON  |  1192680896 |       1 |     0 |           | SDN1R805  | SDN1R805 | 29879271424 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00045-928080731-17 | Backup 00045 | YUKON  |  1192680902 |       1 |     0 |           | SDN1R805  | SDN1R805 | 29879271424 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00045-928080731-18 | Backup 00045 | YUKON  |  1192680907 |       1 |     0 |           | SDN1R805  | SDN1R805 | 29879271424 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00045-928080731-19 | Backup 00045 | YUKON  |  1192680913 |       1 |     0 |           | SDN1R805  | SDN1R805 | 29879271424 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00045-928080731-9 | Backup 00045 | YUKON  |  1192677565 |       1 |     0 |           | SDN1R804  | SDN1R804 | 29879402496 | Symantec Backup Exec 11.0.6235 |       1
+Backup 00092-928080731-20 | Backup 00092 | VISTULA |  1198170703 |       1 |     0 |           | SDN1R805  | SDN1R805 | 29879271424 | Symantec Backup Exec 11.0.6235 |       0
+Backup 00092-928080731-20 | Backup 00092 | VISTULA |  1198170703 |       1 |     0 |           | SDN1R806  | SDN1R806 | 29880188928 | Symantec Backup Exec 11.0.6235 |       0
+Backup 00092-928080731-20 | Backup 00092 | VISTULA |  1198170703 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       0
+Backup 00093-928080731-21 | Backup 00093 | VISTULA |  1198173057 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       0
+Backup 00102-932478108-7 | Backup 00102 | ZEYA   |  1198186187 |       1 |    10 |           | SDN1R80G  | SDN1R80G | 3305013248 | Symantec Backup Exec 11.0.6235 |       2
+Backup 00103-932478108-8 | Backup 00103 | ZEYA   |  1198186420 |       1 |    11 |           | SDN1R80G  | SDN1R80G | 3305013248 | Symantec Backup Exec 11.0.6235 |       2
+Backup 00335-960325742-1 | Backup 00335 | PARANA |  1222707808 |       1 |     0 |           | SDN2KV0Q  | SDN2KV0Q | 5182980096 | Symantec Backup Exec 11.0.6235 |       0
+Backup 00336-960325742-2 | Backup 00336 | VOLGA-2 |  1222804247 |       1 |     0 |           | SDN2KV0Q  | SDN2KV0Q | 5182980096 | Symantec Backup Exec 11.0.6235 |       0
+Backup 00339-960325742-3 | Backup 00339 | PARANA |  1222806259 |       1 |     0 |           | SDN2KV0Q  | SDN2KV0Q | 5182980096 | Symantec Backup Exec 11.0.6235 |       0
+Backup 00340-960325742-4 | Backup 00340 | VOLGA-2 |  1222807569 |       1 |     0 |           | SDN2KV0Q  | SDN2KV0Q | 5182980096 | Symantec Backup Exec 11.0.6235 |       0
+Backup 00341-960325742-5 | Backup 00341 | PARANA |  1222810654 |       1 |    10 |           | SDN2KV0Q  | SDN2KV0Q | 5182980096 | Symantec Backup Exec 11.0.6235 |       0
+Backup 00341-960325742-6 | Backup 00341 | PARANA |  1223046237 |       1 |    10 |           | SDN2KV0Q  | SDN2KV0Q | 5182980096 | Symantec Backup Exec 11.0.6235 |       0
+Backup 00343-960325742-8 | Backup 00343 | parana.search.test.indexengines.com |  1223324651 |       1 |     0 |           | SDN2KV0Q  | SDN2KV0Q | 5182980096 | Symantec Backup Exec 11.0.6235 |       0
+Backup 00344-960325742-9 | Backup 00344 | ZEYA   |  1223325132 |       1 |     0 |           | SDN2KV0Q  | SDN2KV0Q | 5182980096 | Symantec Backup Exec 11.0.6235 |       2
+Backup 00367-925994804-1 | Backup 00367 | SUTLEJ |  1190066260 |       1 |     0 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-925994804-12 | Backup 00370 | SUTLEJ |  1190588407 |       1 |    10 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-925994804-2 | Backup 00370 | SUTLEJ |  1190242810 |       1 |    10 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-925994804-4 | Backup 00370 | SUTLEJ |  1190329209 |       1 |    10 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-925994804-6 | Backup 00370 | SUTLEJ |  1190415609 |       1 |    10 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-925994804-8 | Backup 00370 | SUTLEJ |  1190502010 |       1 |    10 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-926455813-1 | Backup 00370 | SUTLEJ |  1190674810 |       1 |    10 |           | SDN1HN02  | SDN1HN02 | 97386496 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-926455813-3 | Backup 00370 | SUTLEJ |  1190761222 |       1 |    10 |           | SDN1HN02  | SDN1HN02 | 97386496 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-926455813-5 | Backup 00370 | SUTLEJ |  1190847618 |       1 |    10 |           | SDN1HN02  | SDN1HN02 | 97386496 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-926455813-7 | Backup 00370 | SUTLEJ |  1190934015 |       1 |    10 |           | SDN1HN02  | SDN1HN02 | 97386496 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-926455813-9 | Backup 00370 | SUTLEJ |  1191020414 |       1 |    10 |           | SDN1HN02  | SDN1HN02 | 97386496 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-927240846-12 | Backup 00370 | SUTLEJ |  1192057209 |       1 |    10 |           | SDN1HN04  | SDN1HN04 | 29878910976 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-927240846-14 | Backup 00370 | SUTLEJ |  1192143613 |       1 |    10 |           | SDN1HN04  | SDN1HN04 | 29878910976 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-927240846-16 | Backup 00370 | SUTLEJ |  1192230015 |       1 |    10 |           | SDN1HN04  | SDN1HN04 | 29878910976 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-927240846-18 | Backup 00370 | SUTLEJ |  1192316408 |       1 |    10 |           | SDN1HN04  | SDN1HN04 | 29878910976 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-927240846-22 | Backup 00370 | SUTLEJ |  1192402810 |       1 |    10 |           | SDN1HN07  | SDN1HN07 | 821100544 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-927240846-24 | Backup 00370 | SUTLEJ |  1192489210 |       1 |    10 |           | SDN1HN07  | SDN1HN07 | 821100544 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-927240846-2 | Backup 00370 | SUTLEJ |  1191536451 |       1 |    10 |           | SDN1HN03  | SDN1HN03 | 29879828480 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-927240846-5 | Backup 00370 | SUTLEJ |  1191540066 |       1 |    10 |           | SDN1HN01  | SDN1HN01 | 29879566336 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00370-927240846-8 | Backup 00370 | SUTLEJ |  1192028853 |       1 |    10 |           | SDN1HN01  | SDN1HN01 | 29879566336 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00371-925994804-10 | Backup 00371 | SUTLEJ |  1190506511 |       1 |    10 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-925994804-13 | Backup 00371 | SUTLEJ |  1190592907 |       1 |    10 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-925994804-3 | Backup 00371 | SUTLEJ |  1190247310 |       1 |    10 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-925994804-5 | Backup 00371 | SUTLEJ |  1190333708 |       1 |    10 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-925994804-7 | Backup 00371 | SUTLEJ |  1190420109 |       1 |    10 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-926455813-2 | Backup 00371 | SUTLEJ |  1190679309 |       1 |    10 |           | SDN1HN02  | SDN1HN02 | 97386496 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-926455813-4 | Backup 00371 | SUTLEJ |  1190765707 |       1 |    10 |           | SDN1HN02  | SDN1HN02 | 97386496 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-926455813-6 | Backup 00371 | SUTLEJ |  1190852111 |       1 |    10 |           | SDN1HN02  | SDN1HN02 | 97386496 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-926455813-8 | Backup 00371 | SUTLEJ |  1190938513 |       1 |    10 |           | SDN1HN02  | SDN1HN02 | 97386496 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-927240846-11 | Backup 00371 | SUTLEJ |  1192033135 |       1 |    10 |           | SDN1HN04  | SDN1HN04 | 29878910976 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-927240846-13 | Backup 00371 | SUTLEJ |  1192061709 |       1 |    10 |           | SDN1HN04  | SDN1HN04 | 29878910976 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-927240846-15 | Backup 00371 | SUTLEJ |  1192148108 |       1 |    10 |           | SDN1HN04  | SDN1HN04 | 29878910976 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-927240846-17 | Backup 00371 | SUTLEJ |  1192234507 |       1 |    10 |           | SDN1HN04  | SDN1HN04 | 29878910976 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-927240846-1 | Backup 00371 | SUTLEJ |  1191536428 |       1 |    10 |           | SDN1HN03  | SDN1HN03 | 29879828480 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-927240846-20 | Backup 00371 | SUTLEJ |  1192320908 |       1 |    10 |           | SDN1HN07  | SDN1HN07 | 821100544 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-927240846-23 | Backup 00371 | SUTLEJ |  1192407310 |       1 |    10 |           | SDN1HN07  | SDN1HN07 | 821100544 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-927240846-6 | Backup 00371 | SUTLEJ |  1191543307 |       1 |    10 |           | SDN1HN01  | SDN1HN01 | 29879566336 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00371-927240846-7 | Backup 00371 | SUTLEJ |  1192028832 |       1 |    10 |           | SDN1HN01  | SDN1HN01 | 29879566336 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00373-925994804-9 | Backup 00373 | SUTLEJ |  1190502034 |       1 |     0 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00373-927240846-10 | Backup 00373 | SUTLEJ |  1192032973 |       1 |     0 |           | SDN1HN04  | SDN1HN04 | 29878910976 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00373-927240846-19 | Backup 00373 | SUTLEJ |  1192316488 |       1 |     0 |           | SDN1HN04  | SDN1HN04 | 29878910976 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00373-927240846-19 | Backup 00373 | SUTLEJ |  1192316488 |       1 |     0 |           | SDN1HN07  | SDN1HN07 |   821100544 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00373-927240846-3 | Backup 00373 | SUTLEJ |  1191536481 |       1 |     0 |           | SDN1HN03  | SDN1HN03 | 29879828480 | Symantec Backup Exec 10.1.5629 |       1
+Backup 00374-925994804-11 | Backup 00374 | SUTLEJ |  1190506535 |       1 |     0 |           | SDN1HN00  | SDN1HN00 | 7722303488 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00374-927240846-21 | Backup 00374 | SUTLEJ |  1192320932 |       1 |     0 |           | SDN1HN07  | SDN1HN07 | 821100544 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00374-927240846-4 | Backup 00374 | SUTLEJ |  1191537369 |       1 |     0 |           | SDN1HN01  | SDN1HN01 | 29879566336 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00374-927240846-4 | Backup 00374 | SUTLEJ |  1191537369 |       1 |     0 |           | SDN1HN03  | SDN1HN03 | 29879828480 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00374-927240846-9 | Backup 00374 | SUTLEJ |  1192030369 |       1 |     0 |           | SDN1HN01  | SDN1HN01 | 29879566336 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00374-927240846-9 | Backup 00374 | SUTLEJ |  1192030369 |       1 |     0 |           | SDN1HN04  | SDN1HN04 | 29878910976 | Symantec Backup Exec 10.1.5629 |       2
+Backup 00374-927240846-9 | Backup 00374 | SUTLEJ |  1192030369 |       1 |     0 |           | SDN1HN06  | SDN1HN06 | 29880221696 | Symantec Backup Exec 10.1.5629 |       2
+belaya_1196180487-1 | belaya_1196180487 | belaya |  1196180487 |       0 |     0 |           | N1VH00    | SDN1VH00 | 5184082944 | 5          |       2
+Differential backup of the psts on Zeya-932478108-5 | Differential backup of the psts on Zeya | ZEYA   |  1198185517 |       1 |    11 |           | SDN1R80G  | SDN1R80G | 3305013248 | Symantec Backup Exec 11.0.6235 |       1
+Ex 5.5 incr backup of Volga-2-960325742-20 | Ex 5.5 incr backup of Volga-2 | volga-2.quest.com |  1223569638 |       1 |    10 |           | SDN2KV0S  | SDN2KV0S | 2383413248 | Symantec Backup Exec 11.0.6235 |       0
+Exch 5.5 incr backup of Parana-960325742-7 | Exch 5.5 incr backup of Parana | parana.search.test.indexengines.com |  1223323562 |       1 |    11 |           | SDN2KV0Q  | SDN2KV0Q | 5182980096 | Symantec Backup Exec 11.0.6235 |       0
+Exchange 5.5 copy backup on Parana1-960325742-15 | Exchange 5.5 copy backup on Parana1 | parana.search.test.indexengines.com |  1223393833 |       1 |    15 |           | SDN2KV0R  | SDN2KV0R | 5183766528 | Symantec Backup Exec 11.0.6235 |       0
+Exchange 5.5 copy backup on Parana1-960325742-16 | Exchange 5.5 copy backup on Parana1 | parana.search.test.indexengines.com |  1223393923 |       1 |    15 |           | SDN2KV0R  | SDN2KV0R | 5183766528 | Symantec Backup Exec 11.0.6235 |       0
+Exchange 5.5 copy backup on Parana1-960325742-17 | Exchange 5.5 copy backup on Parana1 | parana.search.test.indexengines.com |  1223395378 |       1 |    15 |           | SDN2KV0O  | SDN2KV0O | 5183897600 | Symantec Backup Exec 11.0.6235 |       0
+Exchange 5.5 copy backup on Parana1-960325742-17 | Exchange 5.5 copy backup on Parana1 | parana.search.test.indexengines.com |  1223395378 |       1 |    15 |           | SDN2KV0R  | SDN2KV0R | 5183766528 | Symantec Backup Exec 11.0.6235 |       0
+Exchange 5.5 copy backup on Parana-960325742-14 | Exchange 5.5 copy backup on Parana | parana.search.test.indexengines.com |  1223393330 |       1 |    15 |           | SDN2KV0P  | SDN2KV0P | 5183897600 | Symantec Backup Exec 11.0.6235 |       0
+Exchange 5.5 copy backup on Parana-960325742-14 | Exchange 5.5 copy backup on Parana | parana.search.test.indexengines.com |  1223393330 |       1 |    15 |           | SDN2KV0R  | SDN2KV0R | 5183766528 | Symantec Backup Exec 11.0.6235 |       0
+Exchange 5.5 incr backup of Parana-960325742-18 | Exchange 5.5 incr backup of Parana | parana.search.test.indexengines.com |  1223410577 |       1 |    10 |           | SDN2KV0O  | SDN2KV0O | 5183897600 | Symantec Backup Exec 11.0.6235 |       0
+Exchange 5.5 incr backup of Volga-2-960325742-19 | Exchange 5.5 incr backup of Volga-2 | volga-2.quest.com |  1223426660 |       1 |    10 |           | SDN2KV0O  | SDN2KV0O | 5183897600 | Symantec Backup Exec 11.0.6235 |       0
+Exchange 5.5 incr backup of Volga-2-960325742-19 | Exchange 5.5 incr backup of Volga-2 | volga-2.quest.com |  1223426660 |       1 |    10 |           | SDN2KV0S  | SDN2KV0S | 2383413248 | Symantec Backup Exec 11.0.6235 |       0
+Exchange\\Full\\Backup\\of\\Thrid\\storage\\group\\on\\ze-928080731-22 | Exchange\\Full\\Backup\\of\\Thrid\\storage\\group\\on\\ze | ZEYA   |  1198176914 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       2
+Exchange incremental brick level backup of Zeya_T-932478108-10 | Exchange incremental brick level backup of Zeya_T | ZEYA   |  1198188410 |       1 |     0 |           | SDN1R80G  | SDN1R80G | 3305013248 | Symantec Backup Exec 11.0.6235 |       2
+Exchange logs file system backup on Zeya\\F$-932478108-6 | Exchange logs file system backup on Zeya\\F$ | ZEYA   |  1198185837 |       1 |     0 |           | SDN1R80G  | SDN1R80G | 3305013248 | Symantec Backup Exec 11.0.6235 |       1
+Exch brick level full backup of Zeya_TSG1-932478108-9 | Exch brick level full backup of Zeya_TSG1 | ZEYA   |  1198186805 |       1 |     0 |           | SDN1R80G  | SDN1R80G | 3305013248 | Symantec Backup Exec 11.0.6235 |       2
+F036000101002462-xiangex55server | F036000101002462-xiangex55server | XIANG  |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-001-7/16/07 11:15 AM | SDN0QX2Y | 10552541184 |            |       2
+F036000101002762-xiangex55server | F036000101002762-xiangex55server | XIANG  |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-001-7/16/07 11:15 AM | SDN0QX2Y | 10552541184 |            |       2
+F03600010100C463-vistulaex55server | F03600010100C463-vistulaex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-001-7/16/07 11:15 AM | SDN0QX2Y | 10552541184 |            |       2
+F03600010100C563-vistulaex55server | F03600010100C563-vistulaex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-001-7/16/07 11:15 AM | SDN0QX2Y | 10552541184 |            |       2
+F03600010100C563-vistulaex55server | F03600010100C563-vistulaex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-002-7/16/07 11:15 AM | SDN0QX2Z | 10552868864 |            |       2
+F03600010100C563-vistulaex55server | F03600010100C563-vistulaex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-003-7/16/07 11:15 AM | SDN0QX30 | 10552868864 |            |       2
+F03600010100C563-vistulaex55server | F03600010100C563-vistulaex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-004-7/16/07 11:15 AM | SDN0QX31 | 10552868864 |            |       2
+F03600010100C563-vistulaex55server | F03600010100C563-vistulaex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-005-7/16/07 11:15 AM | SDN0QX32 | 10552868864 |            |       2
+F03600010100C563-vistulaex55server | F03600010100C563-vistulaex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-006-7/16/07 11:15 AM | SDN0QX33 | 10552606720 |            |       2
+F03600010100F259-volga2ex55 | F03600010100F259-volga2ex55 | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-001-7/16/07 11:15 AM | SDN0QX2Y | 10552541184 |            |       2
+F03600010100F359-volga2ex55 | F03600010100F359-volga2ex55 | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-001-7/16/07 11:15 AM | SDN0QX2Y | 10552541184 |            |       2
+F03600060100416E-vistulaex55server | F03600060100416E-vistulaex55server | XIANG  |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-006-7/16/07 11:15 AM | SDN0QX33 | 10552606720 |            |       2
+F03600060100436E-vistulaex55server | F03600060100436E-vistulaex55server | XIANG  |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-006-7/16/07 11:15 AM | SDN0QX33 | 10552606720 |            |       2
+F03600060100BD73-volga2documentandex55server | F03600060100BD73-volga2documentandex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-006-7/16/07 11:15 AM | SDN0QX33 | 10552606720 |            |       2
+F03600060100C073-volga2documentandex55server | F03600060100C073-volga2documentandex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-006-7/16/07 11:15 AM | SDN0QX33 | 10552606720 |            |       2
+F03600060100C073-volga2documentandex55server | F03600060100C073-volga2documentandex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-007-7/16/07 11:15 AM | SDN0QX34 | 10552868864 |            |       2
+F03600060100C073-volga2documentandex55server | F03600060100C073-volga2documentandex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F036000801001C7E-volga2documentex55server | F036000801001C7E-volga2documentex55server | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F036000801001D7E-volga2documentex55server | F036000801001D7E-volga2documentex55server | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F036000801008F84-volga2document | F036000801008F84-volga2document | VISTULA |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F036000801009084-volga2document | F036000801009084-volga2document | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F036000801009384-volga2document | F036000801009384-volga2document | XIANG  |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F036000801009684-volga2document | F036000801009684-volga2document | XIANG  |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F03600080100A58A-volga2vss | F03600080100A58A-volga2vss | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F03600080100A68A-volga2vss | F03600080100A68A-volga2vss | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F03600080100BD7D-volga2documentex55server | F03600080100BD7D-volga2documentex55server | VISTULA |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F03600080100C07D-volga2documentex55server | F03600080100C07D-volga2documentex55server | XIANG  |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F03600080100C086-volga2document | F03600080100C086-volga2document | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F03600080100C37D-volga2documentex55server | F03600080100C37D-volga2documentex55server | XIANG  |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F03600080100C386-volga2document | F03600080100C386-volga2document | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F13600080100A55D-xiangex55serverjuly17 | F13600080100A55D-xiangex55serverjuly17 | XIANG  |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F13600080100A85D-xiangex55serverjuly17 | F13600080100A85D-xiangex55serverjuly17 | XIANG  |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-008-7/16/07 11:15 AM | SDN0QX35 | 10551427072 |            |       2
+F13600080100A85D-xiangex55serverjuly17 | F13600080100A85D-xiangex55serverjuly17 | XIANG  |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       2
+F136000901002066-vistulapst | F136000901002066-vistulapst | VISTULA |           0 |       8 |     0 | pst\\      | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       1
+F136000901002783-yukon_corpus_sessionpassword | F136000901002783-yukon_corpus_sessionpassword | YUKON  |           0 |       8 |     0 | Corpus-Share\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       1
+F13600090100357E-Xiang_pstonsnake | F13600090100357E-Xiang_pstonsnake | SNAKE  |           0 |       8 |     0 | C:\\xiang_pst\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       1
+F136000901004C82-yukon_corpus_sessionpassword | F136000901004C82-yukon_corpus_sessionpassword | YUKON  |           0 |       8 |     0 | Corpus-Permis\\diff docs\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       1
+F136000901005084-volga_2server | F136000901005084-volga_2server | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       2
+F136000901005184-volga_2server | F136000901005184-volga_2server | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       2
+F136000901008E66-snakepst | F136000901008E66-snakepst | SNAKE  |           0 |       8 |     0 | C:\\xiang_pst\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       1
+F13600090100F063-systemstatesnakefull | F13600090100F063-systemstatesnakefull | SNAKE  |           0 |       8 |     0 |           | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       1
+F236000901005650-Newcorpuswithencryption | F236000901005650-Newcorpuswithencryption | YUKON  |           0 |       8 |     0 | home\\david\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       1
+F236000901006C50-Newcorpuswithencryption | F236000901006C50-Newcorpuswithencryption | YUKON  |           0 |       8 |     0 | New Corpus\\16\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       1
+F23600090100E850-Newcorpuswithencryption-dispatchrunning | F23600090100E850-Newcorpuswithencryption-dispatchrunning | YUKON  |           0 |       8 |     0 | home\\david\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       1
+F23600090100F950-Newcorpuswithencryption-dispatchrunning | F23600090100F950-Newcorpuswithencryption-dispatchrunning | YUKON  |           0 |       8 |     0 | New Corpus\\16\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       1
+F93600010100087D-MULTIPLEXING [JOB 2] SUBJOB 1, Source [\\\\XIANG], MULTIPLEXING PARENT JOB | F93600010100087D-MULTIPLEXING [JOB 2] SUBJOB 1, Source [\\\\XIANG], MULTIPLEXING PARENT JOB | XIANG  |           0 |       8 |     0 | dbaexch\\Directory\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       2
+F936000101000D7D-MULTIPLEXING [JOB 2] SUBJOB 1, Source [\\\\XIANG], MULTIPLEXING PARENT JOB | F936000101000D7D-MULTIPLEXING [JOB 2] SUBJOB 1, Source [\\\\XIANG], MULTIPLEXING PARENT JOB | XIANG  |           0 |       8 |     0 | dbaexch\\Information Store\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       2
+F93600010100137D-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\VOLGA-2], MULTIPLEXING PARENT JOB | F93600010100137D-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\VOLGA-2], MULTIPLEXING PARENT JOB | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       2
+F93600010100157D-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\VOLGA-2], MULTIPLEXING PARENT JOB | F93600010100157D-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\VOLGA-2], MULTIPLEXING PARENT JOB | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       2
+F936000101003981-MULTIPLEXING [JOB 8] SUBJOB 2, Source [\\\\YUKON], MULTIPLEXING FS PARENT JOB1 | F936000101003981-MULTIPLEXING [JOB 8] SUBJOB 2, Source [\\\\YUKON], MULTIPLEXING FS PARENT JOB1 | YUKON  |           0 |       8 |     0 | home\\     | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       1
+F936000101006082-MULTIPLEXING [JOB 11] SUBJOB 1, Source [\\\\VOLGA1], MULTIPLEXING FS PARENT JOB2 | F936000101006082-MULTIPLEXING [JOB 11] SUBJOB 1, Source [\\\\VOLGA1], MULTIPLEXING FS PARENT JOB2 | VOLGA1 |           0 |       8 |     0 | E:\\Corpus\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       1
+F936000101006A82-MULTIPLEXING [JOB 11] SUBJOB 2, Source [\\\\YUKON], MULTIPLEXING FS PARENT JOB2 | F936000101006A82-MULTIPLEXING [JOB 11] SUBJOB 2, Source [\\\\YUKON], MULTIPLEXING FS PARENT JOB2 | YUKON  |           0 |       8 |     0 | home\\     | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       1
+F93600010100EB7D-MULTIPLEXING [JOB 5] SUBJOB 1, Source [\\\\XIANG], MULTIPLEXING PARENT JOB2 | F93600010100EB7D-MULTIPLEXING [JOB 5] SUBJOB 1, Source [\\\\XIANG], MULTIPLEXING PARENT JOB2 | XIANG  |           0 |       8 |     0 | dbaexch\\Directory\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       2
+F93600010100F07D-MULTIPLEXING [JOB 5] SUBJOB 1, Source [\\\\XIANG], MULTIPLEXING PARENT JOB2 | F93600010100F07D-MULTIPLEXING [JOB 5] SUBJOB 1, Source [\\\\XIANG], MULTIPLEXING PARENT JOB2 | XIANG  |           0 |       8 |     0 | dbaexch\\Information Store\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       2
+F93600010100F87D-MULTIPLEXING [JOB 5] SUBJOB 2, Source [\\\\VOLGA-2], MULTIPLEXING PARENT JOB2 | F93600010100F87D-MULTIPLEXING [JOB 5] SUBJOB 2, Source [\\\\VOLGA-2], MULTIPLEXING PARENT JOB2 | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       2
+F93600010100FB7D-MULTIPLEXING [JOB 5] SUBJOB 2, Source [\\\\VOLGA-2], MULTIPLEXING PARENT JOB2 | F93600010100FB7D-MULTIPLEXING [JOB 5] SUBJOB 2, Source [\\\\VOLGA-2], MULTIPLEXING PARENT JOB2 | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       2
+FA3600090100724F-filesystem mountpoint yukon distcorpus | FA3600090100724F-filesystem mountpoint yukon distcorpus | YUKON  |           0 |       8 |     0 | DistCorpus\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       1
+FA3600090100724F-filesystem mountpoint yukon distcorpus | FA3600090100724F-filesystem mountpoint yukon distcorpus | YUKON  |           0 |       8 |     0 | DistCorpus\\ | 9A3E-010-7/16/07 11:15 AM | SDN0QX3A | 10552803328 |            |       1
+FA3600090100B74D-Backup Mountpoint volga2 | FA3600090100B74D-Backup Mountpoint volga2 | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       2
+FA3600090100B84D-Backup Mountpoint volga2 | FA3600090100B84D-Backup Mountpoint volga2 | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-009-7/16/07 11:15 AM | SDN0QX36 | 10551885824 |            |       2
+FA36000A0100D356-filesystem mountpoint yukon distcorpus | FA36000A0100D356-filesystem mountpoint yukon distcorpus | YUKON  |           0 |       8 |     0 | DistCorpus\\ | 9A3E-010-7/16/07 11:15 AM | SDN0QX3A | 10552803328 |            |       1
+FA36000A0100D356-filesystem mountpoint yukon distcorpus | FA36000A0100D356-filesystem mountpoint yukon distcorpus | YUKON  |           0 |       8 |     0 | DistCorpus\\ | 9A3E-011-7/16/07 11:15 AM | SDN0QX3B | 10552868864 |            |       1
+FA36000A0100D356-filesystem mountpoint yukon distcorpus | FA36000A0100D356-filesystem mountpoint yukon distcorpus | YUKON  |           0 |       8 |     0 | DistCorpus\\ | 9A3E-012-7/16/07 11:15 AM | SDN0QX3C | 10552410112 |            |       1
+FA36000C01002275-ex55servervistulajuly26 | FA36000C01002275-ex55servervistulajuly26 | VISTULA |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-012-7/16/07 11:15 AM | SDN0QX3C | 10552410112 |            |       2
+FA36000C01002475-ex55servervistulajuly26 | FA36000C01002475-ex55servervistulajuly26 | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-012-7/16/07 11:15 AM | SDN0QX3C | 10552410112 |            |       2
+FA36000C01002475-ex55servervistulajuly26 | FA36000C01002475-ex55servervistulajuly26 | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-013-7/16/07 11:15 AM | SDN0QX3D | 10552868864 |            |       2
+FA36000C01002475-ex55servervistulajuly26 | FA36000C01002475-ex55servervistulajuly26 | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-014-7/16/07 11:15 AM | SDN0QX3E | 10552868864 |            |       2
+FA36000C01002475-ex55servervistulajuly26 | FA36000C01002475-ex55servervistulajuly26 | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-015-7/16/07 11:15 AM | SDN0QX3F | 10552868864 |            |       2
+FA36000C01002475-ex55servervistulajuly26 | FA36000C01002475-ex55servervistulajuly26 | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-016-7/16/07 11:15 AM | SDN0QX3G | 10552868864 |            |       2
+FA36000C01002475-ex55servervistulajuly26 | FA36000C01002475-ex55servervistulajuly26 | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-017-7/16/07 11:15 AM | SDN0QX3H | 10552344576 |            |       2
+FA36000C01004374-ex55serverxiangjuly26 | FA36000C01004374-ex55serverxiangjuly26 | XIANG  |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-012-7/16/07 11:15 AM | SDN0QX3C | 10552410112 |            |       2
+FA36000C01004674-ex55serverxiangjuly26 | FA36000C01004674-ex55serverxiangjuly26 | XIANG  |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-012-7/16/07 11:15 AM | SDN0QX3C | 10552410112 |            |       2
+FA36000C0100CC71-systemstateonsnake | FA36000C0100CC71-systemstateonsnake | SNAKE  |           0 |       8 |     0 |           | 9A3E-012-7/16/07 11:15 AM | SDN0QX3C | 10552410112 |            |       1
+FA36000C0100CC73-ex55servervolga2july26 | FA36000C0100CC73-ex55servervolga2july26 | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Directory\\ | 9A3E-012-7/16/07 11:15 AM | SDN0QX3C | 10552410112 |            |       2
+FA36000C0100CD73-ex55servervolga2july26 | FA36000C0100CD73-ex55servervolga2july26 | VOLGA-2 |           0 |       8 |     0 | dbaexch\\Information Store\\ | 9A3E-012-7/16/07 11:15 AM | SDN0QX3C | 10552410112 |            |       2
+FB3600010100AE62-MULTIPLEXING [JOB 2] SUBJOB 1, Source [\\\\VISTULA], Zeya and Vistula MULTIPLEXIN | FB3600010100AE62-MULTIPLEXING [JOB 2] SUBJOB 1, Source [\\\\VISTULA], Zeya and Vistula MULTIPLEXIN | VISTULA |           0 |       8 |     0 | dbaexch\\Directory\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 | 10552606720 |            |       2
+FB3600010100B162-MULTIPLEXING [JOB 2] SUBJOB 1, Source [\\\\VISTULA], Zeya and Vistula MULTIPLEXIN | FB3600010100B162-MULTIPLEXING [JOB 2] SUBJOB 1, Source [\\\\VISTULA], Zeya and Vistula MULTIPLEXIN | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 |  10552606720 |            |       2
+FB3600010100B162-MULTIPLEXING [JOB 2] SUBJOB 1, Source [\\\\VISTULA], Zeya and Vistula MULTIPLEXIN | FB3600010100B162-MULTIPLEXING [JOB 2] SUBJOB 1, Source [\\\\VISTULA], Zeya and Vistula MULTIPLEXIN | VISTULA |           0 |       8 |     0 | dbaexch\\Information Store\\ | AB66-002-7/25/07 3:40 PM | SDN0QX3I | 107190353920 |            |       2
+FB3600010100B962-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | FB3600010100B962-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | ZEYA   |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | AB66-001-7/25/07 3:40 PM | SDN0QX39 |  10552606720 |            |       2
+FB3600010100B962-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | FB3600010100B962-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | ZEYA   |           0 |       8 |     0 | dbaexchis\\First Storage Group\\ | AB66-002-7/25/07 3:40 PM | SDN0QX3I | 107190353920 |            |       2
+FB3600020100DA72-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | FB3600020100DA72-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | ZEYA   |           0 |       8 |     0 | dbaexchis\\Fourth Storage Group\\ | AB66-002-7/25/07 3:40 PM | SDN0QX3I | 107190353920 |            |       2
+FB3600020100DA72-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | FB3600020100DA72-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | ZEYA   |           0 |       8 |     0 | dbaexchis\\Fourth Storage Group\\ | AB66-003-7/25/07 3:40 PM | SDN0QX3J |  48569384960 |            |       2
+FB36000301006C89-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | FB36000301006C89-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | ZEYA   |           0 |       8 |     0 | dbaexchis\\Second Storage Group\\ | AB66-003-7/25/07 3:40 PM | SDN0QX3J | 48569384960 |            |       2
+FB3600030100788D-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | FB3600030100788D-MULTIPLEXING [JOB 2] SUBJOB 2, Source [\\\\ZEYA], Zeya and Vistula MULTIPLEXING P | ZEYA   |           0 |       8 |     0 | dbaexchis\\Third Storage Group\\ | AB66-003-7/25/07 3:40 PM | SDN0QX3J | 48569384960 |            |       2
+f:\\pst~!@#$%^&*()_+{}|":?><?/bkup`1234565677890-=-928080731-23 | f:\\pst~!@#$%^&*()_+{}|":?><?/bkup`1234565677890-= | ZEYA   |  1198177149 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       1
+f:\\pst~!@#$%^&*()_+{}|":?><?/incremental_backup-932478108-4 | f:\\pst~!@#$%^&*()_+{}|":?><?/incremental_backup | ZEYA   |  1198185232 |       1 |    10 |           | SDN1R80G  | SDN1R80G | 3305013248 | Symantec Backup Exec 11.0.6235 |       1
+FS full backup of Zeya\\C$\\Program Files\\test data-960325742-10 | FS full backup of Zeya\\C$\\Program Files\\test data | ZEYA   |  1223325366 |       1 |     0 |           | SDN2KV0Q  | SDN2KV0Q | 5182980096 | Symantec Backup Exec 11.0.6235 |       1
+kameng_1209753420-1 | kameng_1209753420 | kameng |  1209753420 |       0 |     0 |           | AAC020    | AAC020 | 21354935296 | 5          |       1
+kameng_1209753420-1 | kameng_1209753420 | kameng |  1209753420 |       0 |     0 |           | AAC021    | AAC021 |    27164672 | 5          |       1
+Multistreamed exchange backup on Zeya & Volga2-928080731-24 | Multistreamed exchange backup on Zeya & Volga2 | VOLGA-2 |  1198178819 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       1
+Multistreamed exchange backup on Zeya & Volga2-928080731-25 | Multistreamed exchange backup on Zeya & Volga2 | VOLGA-2 |  1198178825 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       1
+Multistreamed exchange backup on Zeya & Volga2-928080731-26 | Multistreamed exchange backup on Zeya & Volga2 | VOLGA-2 |  1198178831 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       1
+Multistreamed exchange backup on Zeya & Volga2-928080731-27 | Multistreamed exchange backup on Zeya & Volga2 | VOLGA-2 |  1198178878 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       1
+Multistreamed exchange backup on Zeya & Volga2-928080731-28 | Multistreamed exchange backup on Zeya & Volga2 | VOLGA-2 |  1198178884 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       1
+Multistreamed exchange backup on Zeya & Volga2-928080731-29 | Multistreamed exchange backup on Zeya & Volga2 | VOLGA-2 |  1198178892 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       1
+Multistreamed exchange backup on Zeya & Volga2-928080731-30 | Multistreamed exchange backup on Zeya & Volga2 | VOLGA-2 |  1198178956 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       1
+Multistreamed exchange backup on Zeya & Volga2-928080731-31 | Multistreamed exchange backup on Zeya & Volga2 | VOLGA-2 |  1198178962 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       1
+Multistreamed exchange backup on Zeya & Volga2-928080731-32 | Multistreamed exchange backup on Zeya & Volga2 | VOLGA-2 |  1198178968 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       1
+Multistreamed exchange backup on Zeya & Volga2-928080731-33 | Multistreamed exchange backup on Zeya & Volga2 | ZEYA   |  1198178974 |       1 |     0 |           | SDN1R807  | SDN1R807 | 29878484992 | Symantec Backup Exec 11.0.6235 |       2
+Multistreamed exchange backup on Zeya & Volga2-932478108-1 | Multistreamed exchange backup on Zeya & Volga2 | ZEYA   |  1198183322 |       1 |     0 |           | SDN1R80B  | SDN1R80B |  5184159744 | Symantec Backup Exec 11.0.6235 |       2
+Multistreamed exchange backup on Zeya & Volga2-932478108-1 | Multistreamed exchange backup on Zeya & Volga2 | ZEYA   |  1198183322 |       1 |     0 |           | SDN1R80D  | SDN1R80D | 10552868864 | Symantec Backup Exec 11.0.6235 |       2
+Multistreamed exchange backup on Zeya & Volga2-932478108-1 | Multistreamed exchange backup on Zeya & Volga2 | ZEYA   |  1198183322 |       1 |     0 |           | SDN1R80E  | SDN1R80E |  5184159744 | Symantec Backup Exec 11.0.6235 |       2
+Multistreamed exchange backup on Zeya & Volga2-932478108-1 | Multistreamed exchange backup on Zeya & Volga2 | ZEYA   |  1198183322 |       1 |     0 |           | SDN1R80F  | SDN1R80F |  5183897600 | Symantec Backup Exec 11.0.6235 |       2
+Multistreamed exchange backup on Zeya & Volga2-932478108-2 | Multistreamed exchange backup on Zeya & Volga2 | ZEYA   |  1198183726 |       1 |     0 |           | SDN1R80F  | SDN1R80F | 5183897600 | Symantec Backup Exec 11.0.6235 |       2
+Multistreamed exchange backup on Zeya & Volga2-932478108-3 | Multistreamed exchange backup on Zeya & Volga2 | VOLGA-2 |  1198183852 |       1 |     0 |           | SDN1R80F  | SDN1R80F | 5183897600 | Symantec Backup Exec 11.0.6235 |       0
+Multistreamed exchange backup on Zeya & Volga2-932478108-3 | Multistreamed exchange backup on Zeya & Volga2 | VOLGA-2 |  1198183852 |       1 |     0 |           | SDN1R80G  | SDN1R80G | 3305013248 | Symantec Backup Exec 11.0.6235 |       0
+paraguay_1191800121-1 | paraguay_1191800121 | paraguay |  1191800121 |       0 |     0 |           | N1F508    | SDN1F508 | 181248 | 5          |       1
+paraguay_1200951458-1 | paraguay_1200951458 | paraguay |  1200951458 |       0 |     0 |           | AAC046    | SDN1HN09 | 3388766208 | 5          |       1
+paraguay_1200952396-1 | paraguay_1200952396 | paraguay |  1200952396 |       0 |     0 |           | AAC048    | SDN1HN0B | 557351936 | 5          |       1
+paraguay_1200952588-1 | paraguay_1200952588 | paraguay |  1200952588 |       0 |     0 |           | AAC047    | SDN1HN0A | 1565886464 | 5          |       1
+paraguay_1209835207-1 | paraguay_1209835207 | paraguay |  1209835207 |       0 |     0 |           | AAC050    | AAC050 | 7660853248 | 5          |       2
+paraguay_1270150575-1 | paraguay_1270150575 | paraguay |  1270150575 |       0 |     0 |           | A00000    |        |    0 | 5          |       1
+Parana diff backups with encryption enabled-960325742-13 | Parana diff backups with encryption enabled | parana.search.test.indexengines.com |  1223385494 |       1 |    11 |           | SDN2KV0P  | SDN2KV0P | 5183897600 | Symantec Backup Exec 11.0.6235 |       0
+Parana incr backups-960325742-12 | Parana incr backups | parana.search.test.indexengines.com |  1223384302 |       1 |    10 |           | SDN2KV0P  | SDN2KV0P | 5183897600 | Symantec Backup Exec 11.0.6235 |       0
+Server level full backup of Exchange data on Zeya-928080731-5 | Server level full backup of Exchange data on Zeya | ZEYA   |  1192657516 |       1 |     0 |           | SDN1R800  | SDN1R800 | 29879533568 | Symantec Backup Exec 11.0.6235 |       2
+Server level full backup of Exchange data on Zeya-928080731-6 | Server level full backup of Exchange data on Zeya | ZEYA   |  1192657967 |       1 |     0 |           | SDN1R800  | SDN1R800 | 29879533568 | Symantec Backup Exec 11.0.6235 |       2
+Server level full backup of Exchange data on Zeya-928080731-6 | Server level full backup of Exchange data on Zeya | ZEYA   |  1192657967 |       1 |     0 |           | SDN1R801  | SDN1R801 | 29880188928 | Symantec Backup Exec 11.0.6235 |       2
+Server level full backup of Exchange data on Zeya-928080731-6 | Server level full backup of Exchange data on Zeya | ZEYA   |  1192657967 |       1 |     0 |           | SDN1R802  | SDN1R802 | 29880188928 | Symantec Backup Exec 11.0.6235 |       2
+Server level full backup of Exchange data on Zeya-928080731-6 | Server level full backup of Exchange data on Zeya | ZEYA   |  1192657967 |       1 |     0 |           | SDN1R803  | SDN1R803 | 29880057856 | Symantec Backup Exec 11.0.6235 |       2
+Server level full backup of Exchange data on Zeya-928080731-7 | Server level full backup of Exchange data on Zeya | ZEYA   |  1192661373 |       1 |     0 |           | SDN1R803  | SDN1R803 | 29880057856 | Symantec Backup Exec 11.0.6235 |       2
+Server level full backup of Exchange data on Zeya-928080731-7 | Server level full backup of Exchange data on Zeya | ZEYA   |  1192661373 |       1 |     0 |           | SDN1R804  | SDN1R804 | 29879402496 | Symantec Backup Exec 11.0.6235 |       2
+Server level full backup of Exchange data on Zeya-928080731-8 | Server level full backup of Exchange data on Zeya | ZEYA   |  1192661582 |       1 |     0 |           | SDN1R804  | SDN1R804 | 29879402496 | Symantec Backup Exec 11.0.6235 |       2
+strawberry_1270150114-1 | strawberry_1270150114 | strawberry |  1270150114 |       0 |     0 |           | A00000    |        |    0 | 5          |       2
+strawberry_1270474536-1 | strawberry_1270474536 | strawberry |  1270474536 |       0 |     0 |           | A00000    |        |    0 | 5          |       1
+strawberry_1270585877-1 | strawberry_1270585877 | strawberry |  1270585877 |       0 |     0 |           | A00000    |        |    0 | 5          |       1
+strawberry_1270648312-1 | strawberry_1270648312 | strawberry |  1270648312 |       0 |     0 |           | A00000    |        |    0 | 5          |       2
+strawberry_1270655256-1 | strawberry_1270655256 | strawberry |  1270655256 |       0 |     0 |           | A00000    |        |    0 | 5          |       2
+strawberry_1270655501-1 | strawberry_1270655501 | strawberry |  1270655501 |       0 |     0 |           | A00000    |        |    0 | 5          |       1
+sutlej_1188930948-1 | sutlej_1188930948 | sutlej |  1188930948 |       0 |     0 |           | N1F502    | SDN1F502 | 8811604992 | 5          |       1
+sutlej_1188934474-1 | sutlej_1188934474 | sutlej |  1188934474 |       0 |     0 |           | N1F502    | SDN1F502 | 8811604992 | 5          |       1
+sutlej_1188936799-1 | sutlej_1188936799 | sutlej |  1188936799 |       0 |     0 |           | N1F502    | SDN1F502 | 8811604992 | 5          |       1
+sutlej_1189110233-1 | sutlej_1189110233 | sutlej |  1189110233 |       0 |     0 |           | N1F504    | SDN1F504 | 29879097344 | 5          |       1
+sutlej_1189110307-1 | sutlej_1189110307 | sutlej |  1189110307 |       0 |     0 |           | N1F504    | SDN1F504 | 29879097344 | 5          |       1
+sutlej_1189113191-1 | sutlej_1189113191 | sutlej |  1189113191 |       0 |     0 |           | N1F504    | SDN1F504 | 29879097344 | 5          |       1
+sutlej_1189114387-1 | sutlej_1189114387 | sutlej |  1189114387 |       0 |     0 |           | N1F504    | SDN1F504 | 29879097344 | 5          |       1
+sutlej_1189114554-1 | sutlej_1189114554 | sutlej |  1189114554 |       0 |     0 |           | N1F504    | SDN1F504 | 29879097344 | 5          |       1
+sutlej_1189114693-1 | sutlej_1189114693 | sutlej |  1189114693 |       0 |     0 |           | N1F504    | SDN1F504 | 29879097344 | 5          |       1
+sutlej_1189173864-1 | sutlej_1189173864 | sutlej |  1189173864 |       0 |     0 |           | N1F504    | SDN1F504 | 29879097344 | 5          |       2
+sutlej_1189173864-1 | sutlej_1189173864 | sutlej |  1189173864 |       0 |     0 |           | N1F506    | SDN1F506 | 29880017920 | 5          |       2
+sutlej_1189177771-1 | sutlej_1189177771 | sutlej |  1189177771 |       0 |     0 |           | N1F506    | SDN1F506 | 29880017920 | 5          |       1
+sutlej_1189178128-1 | sutlej_1189178128 | sutlej |  1189178128 |       0 |     0 |           | N1F505    | SDN1F505 | 29879965696 | 5          |       2
+sutlej_1189185442-1 | sutlej_1189185442 | sutlej |  1189185442 |       0 |     0 |           | N1F509    | SDN1F509 | 29880015872 | 5          |       2
+sutlej_1190425085-1 | sutlej_1190425085 | sutlej |  1190425085 |       0 |     0 |           | N1F501    | SDN1F501 | 61898752 | 5          |       2
+sutlej_1191801766-1 | sutlej_1191801766 | sutlej |  1191801766 |       0 |     0 |           | N1F50A    | SDN1F50A | 29880029184 | 5          |       2
+sutlej_1191801766-1 | sutlej_1191801766 | sutlej |  1191801766 |       0 |     0 |           | N1F50B    | SDN1F50B | 29880100864 | 5          |       2
+sutlej_1192438841-1 | sutlej_1192438841 | sutlej |  1192438841 |       0 |    11 |           | N1F50J    | SDN1F50J | 24590577664 | 5          |       2
+sutlej_1196187403-1 | sutlej_1196187403 | sutlej |  1196187403 |       0 |     0 |           | N1VH02    | SDN1VH02 | 5183978496 | 5          |       2
+sutlej_1196187573-1 | sutlej_1196187573 | sutlej |  1196187573 |       0 |     0 |           | N1VH02    | SDN1VH02 | 5183978496 | 5          |       2
+sutlej_1196192599-1 | sutlej_1196192599 | sutlej |  1196192599 |       0 |     0 |           | N1VH1E    | SDN1VH1E | 5184096256 | 5          |       2
+sutlej_1196192599-1 | sutlej_1196192599 | sutlej |  1196192599 |       0 |     0 |           | N1VH1F    | SDN1VH1F | 5184096256 | 5          |       2
+sutlej_1196192599-1 | sutlej_1196192599 | sutlej |  1196192599 |       0 |     0 |           | N1VH1G    | SDN1VH1G | 5184096256 | 5          |       2
+sutlej_1196192599-1 | sutlej_1196192599 | sutlej |  1196192599 |       0 |     0 |           | N1VH1H    | SDN1VH1H | 5184096256 | 5          |       2
+sutlej_1196192599-1 | sutlej_1196192599 | sutlej |  1196192599 |       0 |     0 |           | N1VH1I    | SDN1VH1I | 5184096256 | 5          |       2
+sutlej_1196192599-1 | sutlej_1196192599 | sutlej |  1196192599 |       0 |     0 |           | N1VH1J    | SDN1VH1J | 5184096256 | 5          |       2
+sutlej_1196192599-1 | sutlej_1196192599 | sutlej |  1196192599 |       0 |     0 |           | N1VH1K    | SDN1VH1K | 5184096256 | 5          |       2
+sutlej_1196192599-1 | sutlej_1196192599 | sutlej |  1196192599 |       0 |     0 |           | N1VH1L    | SDN1VH1L | 5184096256 | 5          |       2
+sutlej_1196192599-1 | sutlej_1196192599 | sutlej |  1196192599 |       0 |     0 |           | N1VH1M    | SDN1VH1M | 5184096256 | 5          |       2
+sutlej_1196192599-1 | sutlej_1196192599 | sutlej |  1196192599 |       0 |     0 |           | N1VH1N    | SDN1VH1N | 5184096256 | 5          |       2
+sutlej_1196192599-1 | sutlej_1196192599 | sutlej |  1196192599 |       0 |     0 |           | N1VH1O    | SDN1VH1O | 5184082944 | 5          |       2
+sutlej_1209741345-1 | sutlej_1209741345 | sutlej |  1209741345 |       0 |     0 |           | AAC006    | AAC006 | 21354955776 | 5          |       2
+sutlej_1209741345-1 | sutlej_1209741345 | sutlej |  1209741345 |       0 |     0 |           | AAC007    | AAC007 | 21355040768 | 5          |       2
+sutlej_1209741345-1 | sutlej_1209741345 | sutlej |  1209741345 |       0 |     0 |           | AAC008    | AAC008 | 21355040768 | 5          |       2
+sutlej_1209741345-1 | sutlej_1209741345 | sutlej |  1209741345 |       0 |     0 |           | AAC009    | AAC009 | 21355040768 | 5          |       2
+sutlej_1209741345-1 | sutlej_1209741345 | sutlej |  1209741345 |       0 |     0 |           | AAC010    | AAC010 | 21355040768 | 5          |       2
+sutlej_1209741345-1 | sutlej_1209741345 | sutlej |  1209741345 |       0 |     0 |           | AAC011    | AAC011 | 21355040768 | 5          |       2
+sutlej_1209741345-1 | sutlej_1209741345 | sutlej |  1209741345 |       0 |     0 |           | AAC012    | AAC012 | 21355040768 | 5          |       2
+sutlej_1209741345-1 | sutlej_1209741345 | sutlej |  1209741345 |       0 |     0 |           | AAC013    | AAC013 | 21355013632 | 5          |       2
+sutlej_1209741345-1 | sutlej_1209741345 | sutlej |  1209741345 |       0 |     0 |           | AAC014    | AAC014 | 21354946560 | 5          |       2
+sutlej_1209751500-1 | sutlej_1209751500 | sutlej |  1209751500 |       0 |     0 |           | AAC016    | AAC016 | 21354934272 | 5          |       1
+sutlej_1209751500-1 | sutlej_1209751500 | sutlej |  1209751500 |       0 |     0 |           | AAC019    | AAC019 | 21355038720 | 5          |       1
+sutlej_1209751500-1 | sutlej_1209751500 | sutlej |  1209751500 |       0 |     0 |           | AAC020    | AAC020 | 21354935296 | 5          |       1
+sutlej_1209751501-1 | sutlej_1209751501 | sutlej |  1209751501 |       0 |     0 |           | AAC017    | AAC017 | 21355000832 | 5          |       1
+sutlej_1209751502-1 | sutlej_1209751502 | sutlej |  1209751502 |       0 |     0 |           | AAC018    | AAC018 | 21354813440 | 5          |       1
+sutlej_1209757063-1 | sutlej_1209757063 | sutlej |  1209757063 |       0 |     0 |           | AAC018    | AAC018 | 21354813440 | 5          |       1
+toms_1209738862-1 | toms_1209738862 | toms   |  1209738862 |       0 |     0 |           | AAC005    | AAC005 | 21354962944 | 5          |       2
+toms_1209738862-1 | toms_1209738862 | toms   |  1209738862 |       0 |     0 |           | AAC006    | AAC006 | 21354955776 | 5          |       2
+toms_1270150011-1 | toms_1270150011 | toms   |  1270150011 |       0 |     0 |           | A00000    |        |    0 | 5          |       2
+vistula_1196180630-1 | vistula_1196180630 | vistula |  1196180630 |       0 |     0 |           | N1VH00    | SDN1VH00 | 5184082944 | 5          |       2
+vistula_1196180630-1 | vistula_1196180630 | vistula |  1196180630 |       0 |     0 |           | N1VH01    | SDN1VH01 | 5184096256 | 5          |       2
+vistula_1196180630-1 | vistula_1196180630 | vistula |  1196180630 |       0 |     0 |           | N1VH03    | SDN1VH03 | 5184096256 | 5          |       2
+vistula_1196180630-1 | vistula_1196180630 | vistula |  1196180630 |       0 |     0 |           | N1VH04    | SDN1VH04 | 5184096256 | 5          |       2
+vistula_1196180630-1 | vistula_1196180630 | vistula |  1196180630 |       0 |     0 |           | N1VH05    | SDN1VH05 | 5184096256 | 5          |       2
+vistula_1196180630-1 | vistula_1196180630 | vistula |  1196180630 |       0 |     0 |           | N1VH06    | SDN1VH06 | 5184096256 | 5          |       2
+vistula_1196180630-1 | vistula_1196180630 | vistula |  1196180630 |       0 |     0 |           | N1VH07    | SDN1VH07 | 5184096256 | 5          |       2
+vistula_1196180630-1 | vistula_1196180630 | vistula |  1196180630 |       0 |     0 |           | N1VH08    | SDN1VH08 | 5184096256 | 5          |       2
+vistula_1196180630-1 | vistula_1196180630 | vistula |  1196180630 |       0 |     0 |           | N1VH09    | SDN1VH09 | 5184096256 | 5          |       2
+vistula_1196180630-1 | vistula_1196180630 | vistula |  1196180630 |       0 |     0 |           | N1VH0A    | SDN1VH0A | 5184096256 | 5          |       2
+vistula_1196180630-1 | vistula_1196180630 | vistula |  1196180630 |       0 |     0 |           | N1VH0B    | SDN1VH0B | 5184077824 | 5          |       2
+vistula_1209689287-1 | vistula_1209689287 | vistula |  1209689287 |       0 |     0 |           | AAC002    | AAC002 | 21354937344 | 5          |       2
+vistula_1209689287-1 | vistula_1209689287 | vistula |  1209689287 |       0 |     0 |           | AAC003    | AAC003 | 21355038720 | 5          |       2
+vistula_1209689287-1 | vistula_1209689287 | vistula |  1209689287 |       0 |     0 |           | AAC004    | AAC004 | 21355020288 | 5          |       2
+vistula_1209741350-1 | vistula_1209741350 | vistula |  1209741350 |       0 |     0 |           | AAC006    | AAC006 | 21354955776 | 5          |       2
+vistula_1209741350-1 | vistula_1209741350 | vistula |  1209741350 |       0 |     0 |           | AAC007    | AAC007 | 21355040768 | 5          |       2
+vistula_1209741350-1 | vistula_1209741350 | vistula |  1209741350 |       0 |     0 |           | AAC008    | AAC008 | 21355040768 | 5          |       2
+vistula_1209741350-1 | vistula_1209741350 | vistula |  1209741350 |       0 |     0 |           | AAC009    | AAC009 | 21355040768 | 5          |       2
+vistula_1209741350-1 | vistula_1209741350 | vistula |  1209741350 |       0 |     0 |           | AAC010    | AAC010 | 21355040768 | 5          |       2
+vistula_1209741350-1 | vistula_1209741350 | vistula |  1209741350 |       0 |     0 |           | AAC011    | AAC011 | 21355040768 | 5          |       2
+vistula_1209741350-1 | vistula_1209741350 | vistula |  1209741350 |       0 |     0 |           | AAC012    | AAC012 | 21355040768 | 5          |       2
+vistula_1209741350-1 | vistula_1209741350 | vistula |  1209741350 |       0 |     0 |           | AAC013    | AAC013 | 21355013632 | 5          |       2
+volga-2_1196194944-1 | volga-2_1196194944 | volga-2 |  1196194944 |       0 |     0 |           | N1VH15    | SDN1VH15 | 5184020480 | 5          |       2
+volga-2_1196194944-1 | volga-2_1196194944 | volga-2 |  1196194944 |       0 |     0 |           | N1VH1O    | SDN1VH1O | 5184082944 | 5          |       2
+vyatka_1270499308-1 | vyatka_1270499308 | vyatka |  1270499308 |       0 |     0 |           | A00000    |        |    0 | 5          |       2
+vyatka_1270578226-1 | vyatka_1270578226 | vyatka |  1270578226 |       0 |     0 |           | A00000    |        |    0 | 5          |       2
+vyatka_1270582374-1 | vyatka_1270582374 | vyatka |  1270582374 |       0 |     0 |           | A00000    |        |    0 | 5          |       2
+vyatka_1270651117-1 | vyatka_1270651117 | vyatka |  1270651117 |       0 |     0 |           | A00000    |        |    0 | 5          |       2
+vyatka_1270656891-1 | vyatka_1270656891 | vyatka |  1270656891 |       0 |     0 |           | A00000    |        |    0 | 5          |       2
+zeya_1189017553-1 | zeya_1189017553 | zeya   |  1189017553 |       0 |     0 |           | N1F503    | SDN1F503 | 29880144896 | 5          |       2
+zeya_1189018538-1 | zeya_1189018538 | zeya   |  1189018538 |       0 |     0 |           | N1F503    | SDN1F503 | 29880144896 | 5          |       2
+zeya_1189018538-1 | zeya_1189018538 | zeya   |  1189018538 |       0 |     0 |           | N1F504    | SDN1F504 | 29879097344 | 5          |       2
+zeya_1189110621-1 | zeya_1189110621 | zeya   |  1189110621 |       0 |     0 |           | N1F504    | SDN1F504 | 29879097344 | 5          |       1
+zeya_1189110773-1 | zeya_1189110773 | zeya   |  1189110773 |       0 |     0 |           | N1F504    | SDN1F504 | 29879097344 | 5          |       2
+zeya_1189174465-1 | zeya_1189174465 | zeya   |  1189174465 |       0 |     0 |           | N1F505    | SDN1F505 | 29879965696 | 5          |       1
+zeya_1189174542-1 | zeya_1189174542 | zeya   |  1189174542 |       0 |     0 |           | N1F505    | SDN1F505 | 29879965696 | 5          |       2
+zeya_1189176868-1 | zeya_1189176868 | zeya   |  1189176868 |       0 |     0 |           | N1F505    | SDN1F505 | 29879965696 | 5          |       2
+zeya_1189177875-1 | zeya_1189177875 | zeya   |  1189177875 |       0 |     0 |           | N1F506    | SDN1F506 | 29880017920 | 5          |       2
+zeya_1189177875-1 | zeya_1189177875 | zeya   |  1189177875 |       0 |     0 |           | N1F507    | SDN1F507 | 29880086528 | 5          |       2
+zeya_1189181168-1 | zeya_1189181168 | zeya   |  1189181168 |       0 |     0 |           | N1F507    | SDN1F507 | 29880086528 | 5          |       2
+zeya_1189181396-1 | zeya_1189181396 | zeya   |  1189181396 |       0 |     0 |           | N1F507    | SDN1F507 | 29880086528 | 5          |       2
+zeya_1189181396-1 | zeya_1189181396 | zeya   |  1189181396 |       0 |     0 |           | N1F509    | SDN1F509 | 29880015872 | 5          |       2
+zeya_1189779932-1 | zeya_1189779932 | zeya   |  1189779932 |       0 |     0 |           | N1F50C    | SDN1F50C | 24596881408 | 5          |       1
+zeya_1189785995-1 | zeya_1189785995 | zeya   |  1189785995 |       0 |     0 |           | N1F50C    | SDN1F50C | 24596881408 | 5          |       2
+zeya_1190391489-1 | zeya_1190391489 | zeya   |  1190391489 |       0 |     0 |           | N1F50C    | SDN1F50C | 24596881408 | 5          |       2
+zeya_1190425084-1 | zeya_1190425084 | zeya   |  1190425084 |       0 |     0 |           | N1F50C    | SDN1F50C | 24596881408 | 5          |       2
+zeya_1191450395-1 | zeya_1191450395 | zeya   |  1191450395 |       0 |    11 |           | N1F500    | SDN1F500 | 18233139200 | 5          |       2
+zeya_1191992457-1 | zeya_1191992457 | zeya   |  1191992457 |       0 |    11 |           | N1F500    | SDN1F500 | 18233139200 | 5          |       2
+zeya_1192023405-1 | zeya_1192023405 | zeya   |  1192023405 |       0 |    11 |           | N1F50B    | SDN1F50B | 29880100864 | 5          |       1
+zeya_1192023405-1 | zeya_1192023405 | zeya   |  1192023405 |       0 |    11 |           | N1F50J    | SDN1F50J | 24590577664 | 5          |       1
+zeya_1192471236-1 | zeya_1192471236 | zeya   |  1192471236 |       0 |    11 |           | N1F50J    | SDN1F50J | 24590577664 | 5          |       2
+zeya_1192563476-1 | zeya_1192563476 | zeya   |  1192563476 |       0 |    11 |           | N1F50J    | SDN1F50J | 24590577664 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH02    | SDN1VH02 | 5183978496 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0B    | SDN1VH0B | 5184077824 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0C    | SDN1VH0C | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0D    | SDN1VH0D | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0E    | SDN1VH0E | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0F    | SDN1VH0F | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0G    | SDN1VH0G | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0H    | SDN1VH0H | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0I    | SDN1VH0I | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0J    | SDN1VH0J | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0K    | SDN1VH0K | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0L    | SDN1VH0L | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0M    | SDN1VH0M | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0N    | SDN1VH0N | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0O    | SDN1VH0O | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0P    | SDN1VH0P | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0Q    | SDN1VH0Q | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0R    | SDN1VH0R | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0S    | SDN1VH0S | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0T    | SDN1VH0T | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0U    | SDN1VH0U | 5184096256 | 5          |       2
+zeya_1196182669-1 | zeya_1196182669 | zeya   |  1196182669 |       0 |     0 |           | N1VH0V    | SDN1VH0V | 5184096256 | 5          |       2
+zeya_1196195303-1 | zeya_1196195303 | zeya   |  1196195303 |       0 |     0 |           | N1VH15    | SDN1VH15 | 5184020480 | 5          |       1
+zeya_1196200348-1 | zeya_1196200348 | zeya   |  1196200348 |       0 |    11 |           | N1VH15    | SDN1VH15 | 5184020480 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH21    | SDN1VH21 | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH22    | SDN1VH22 | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH23    | SDN1VH23 | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH24    | SDN1VH24 | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH25    | SDN1VH25 | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH26    | SDN1VH26 | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH27    | SDN1VH27 | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH28    | SDN1VH28 | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH29    | SDN1VH29 | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2A    | SDN1VH2A | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2B    | SDN1VH2B | 4057383936 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2L    | SDN1VH2L | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2M    | SDN1VH2M | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2N    | SDN1VH2N | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2O    | SDN1VH2O | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2P    | SDN1VH2P | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2Q    | SDN1VH2Q | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2R    | SDN1VH2R | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2S    | SDN1VH2S | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2T    | SDN1VH2T | 5184096256 | 5          |       2
+zeya_1196351088-1 | zeya_1196351088 | zeya   |  1196351088 |       0 |    10 |           | N1VH2U    | SDN1VH2U | 5184096256 | 5          |       2
+zeya_1209687112-1 | zeya_1209687112 | zeya   |  1209687112 |       0 |     0 |           | AAC001    | AAC001 | 21354958848 | 5          |       1
+zeya_1209688346-1 | zeya_1209688346 | zeya   |  1209688346 |       0 |     0 |           | AAC001    | AAC001 | 21354958848 | 5          |       2
+zeya_1209688346-1 | zeya_1209688346 | zeya   |  1209688346 |       0 |     0 |           | AAC002    | AAC002 | 21354937344 | 5          |       2
+zeya_1209737975-1 | zeya_1209737975 | zeya   |  1209737975 |       0 |     0 |           | AAC004    | AAC004 | 21355020288 | 5          |       2
+zeya_1209737975-1 | zeya_1209737975 | zeya   |  1209737975 |       0 |     0 |           | AAC005    | AAC005 | 21354962944 | 5          |       2
+zeya_1209741356-1 | zeya_1209741356 | zeya   |  1209741356 |       0 |     0 |           | AAC006    | AAC006 | 21354955776 | 5          |       2
+zeya_1209741356-1 | zeya_1209741356 | zeya   |  1209741356 |       0 |     0 |           | AAC007    | AAC007 | 21355040768 | 5          |       2
+zeya_1209741356-1 | zeya_1209741356 | zeya   |  1209741356 |       0 |     0 |           | AAC008    | AAC008 | 21355040768 | 5          |       2
+zeya_1209741356-1 | zeya_1209741356 | zeya   |  1209741356 |       0 |     0 |           | AAC009    | AAC009 | 21355040768 | 5          |       2
+zeya_1209741356-1 | zeya_1209741356 | zeya   |  1209741356 |       0 |     0 |           | AAC010    | AAC010 | 21355040768 | 5          |       2
+zeya_1209741356-1 | zeya_1209741356 | zeya   |  1209741356 |       0 |     0 |           | AAC011    | AAC011 | 21355040768 | 5          |       2
+zeya_1209741356-1 | zeya_1209741356 | zeya   |  1209741356 |       0 |     0 |           | AAC012    | AAC012 | 21355040768 | 5          |       2
+zeya_1209741356-1 | zeya_1209741356 | zeya   |  1209741356 |       0 |     0 |           | AAC013    | AAC013 | 21355013632 | 5          |       2
+zeya_1209741356-1 | zeya_1209741356 | zeya   |  1209741356 |       0 |     0 |           | AAC014    | AAC014 | 21354946560 | 5          |       2
+zeya_1209741356-1 | zeya_1209741356 | zeya   |  1209741356 |       0 |     0 |           | AAC015    | AAC015 | 21354652672 | 5          |       2
+zeya_1209749735-1 | zeya_1209749735 | zeya   |  1209749735 |       0 |     0 |           | AAC015    | AAC015 | 21354652672 | 5          |       2
+zeya_1209749835-1 | zeya_1209749835 | zeya   |  1209749835 |       0 |     0 |           | AAC015    | AAC015 | 21354652672 | 5          |       2
+zeya_1209750131-1 | zeya_1209750131 | zeya   |  1209750131 |       0 |    11 |           | AAC015    | AAC015 | 21354652672 | 5          |       1
+zeya_1209750548-1 | zeya_1209750548 | zeya   |  1209750548 |       0 |    10 |           | AAC015    | AAC015 | 21354652672 | 5          |       1
+zeya_1209751003-1 | zeya_1209751003 | zeya   |  1209751003 |       0 |     0 |           | AAC015    | AAC015 | 21354652672 | 5          |       1
+zeya_1209751003-1 | zeya_1209751003 | zeya   |  1209751003 |       0 |     0 |           | AAC016    | AAC016 | 21354934272 | 5          |       1
+zeya_1209755884-1 | zeya_1209755884 | zeya   |  1209755884 |       0 |     0 |           | AAC018    | AAC018 | 21354813440 | 5          |       1
+zeya_1209761556-1 | zeya_1209761556 | zeya   |  1209761556 |       0 |     0 |           | AAC018    | AAC018 | 21354813440 | 5          |       1
+zeya_1209761556-1 | zeya_1209761556 | zeya   |  1209761556 |       0 |     0 |           | AAC022    | AAC022 | 21355038720 | 5          |       1
+zeya_1209761556-1 | zeya_1209761556 | zeya   |  1209761556 |       0 |     0 |           | AAC023    | AAC023 | 21354909696 | 5          |       1
+zeya_1209821102-1 | zeya_1209821102 | zeya   |  1209821102 |       0 |     0 |           | AAC023    | AAC023 | 21354909696 | 5          |       1
+zeya_1209821102-1 | zeya_1209821102 | zeya   |  1209821102 |       0 |     0 |           | AAC024    | AAC024 | 21355038720 | 5          |       1
+zeya_1209821102-1 | zeya_1209821102 | zeya   |  1209821102 |       0 |     0 |           | AAC025    | AAC025 |   919312384 | 5          |       1
+zeya_1209829574-1 | zeya_1209829574 | zeya   |  1209829574 |       0 |     0 |           | AAC017    | AAC017 | 21355000832 | 5          |       1
+zeya_1209829574-1 | zeya_1209829574 | zeya   |  1209829574 |       0 |     0 |           | AAC026    | AAC026 | 21355038720 | 5          |       1
+zeya_1209829574-1 | zeya_1209829574 | zeya   |  1209829574 |       0 |     0 |           | AAC027    | AAC027 | 21355038720 | 5          |       1
+zeya_1209829574-1 | zeya_1209829574 | zeya   |  1209829574 |       0 |     0 |           | AAC028    | AAC028 | 21355038720 | 5          |       1
+zeya_1209829574-1 | zeya_1209829574 | zeya   |  1209829574 |       0 |     0 |           | AAC029    | AAC029 | 21355038720 | 5          |       1
+zeya_1209829574-1 | zeya_1209829574 | zeya   |  1209829574 |       0 |     0 |           | AAC030    | AAC030 |  1235027968 | 5          |       1
+zeya_1209834674-1 | zeya_1209834674 | zeya   |  1209834674 |       0 |     0 |           | AAC050    | AAC050 | 7660853248 | 5          |       1
+zeya_1209834887-1 | zeya_1209834887 | zeya   |  1209834887 |       0 |     0 |           | AAC050    | AAC050 | 7660853248 | 5          |       1

@@ -1,0 +1,68 @@
+<% content_for :title, "Edit Tape" %>
+
+
+<h1>Editing tape</h1>
+
+<% form_for(@tape) do |f| %>
+  <%= f.error_messages %>
+  
+  <p>
+    <%= f.label :bsid %><br />
+    <%= f.text_field :bsid %>
+  </p>
+  <p>
+    <%= f.label :server %><br />
+    <%= f.text_field :server %>
+  </p>
+  <p>
+    <%= f.label :backupstamp %><br />
+    <%= f.text_field :backupstamp %>
+  </p>
+  <p>
+    <%= f.label :bformat %><br />
+    <%= f.text_field :bformat %>
+  </p>
+  <p>
+    <%= f.label :btype %><br />
+    <%= f.text_field :btype %>
+  </p>
+   <p>
+    <%= f.label :bclient %><br />
+    <%= f.text_field :bclient %>
+  </p>
+
+  <p>
+    <%= f.label :broot %><br />
+    <%= f.text_field :broot %>
+  </p>
+  <p>
+    <%= f.label :tapelabel %><br />
+    <%= f.text_field :tapelabel %>
+  </p>
+  <p>
+    <%= f.label :voltag %><br />
+    <%= f.text_field :voltag %>
+  </p>
+  <p>
+    <%= f.label :size %><br />
+    <%= f.text_field :size %>
+  </p>
+  <p>
+    <%= f.label :rev %><br />
+    <%= f.text_field :rev %>
+  </p>
+  <p>
+    <%= f.label :testcase %><br />
+    <%= f.text_field :testcase %>
+  </p>
+  <p>
+    <%= f.label :note %><br />
+    <%= f.text_area :note, :rows => 7 %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @tape %> |
+<%= link_to_function 'Back', "history.back()" %>
