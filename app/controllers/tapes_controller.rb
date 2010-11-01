@@ -48,8 +48,18 @@ class TapesController < ApplicationController
    end
 
 
+  def listbs
+   @tape = Tape.find(params[:id])  
+ 
+   @tapes = Tape.find (:all, :conditions => ["voltag like ?", "#{@tape.voltag}"])
+
+ respond_to do |format|
+        format.html # new.html.erb
+        format.xml  { render :xml => @tape }
+      end
    
 
+  end
 
   # GET /tapes/new
   # GET /tapes/new.xml
