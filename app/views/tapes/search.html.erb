@@ -10,7 +10,7 @@
 
 <table>
   <tr>
-    <th> Tape ID </th>
+    <th> Database ID </th>
     <th> Backupset ID</th>
     <th>Volume Tag</th>
     <th>Server</th>
@@ -27,7 +27,11 @@
 <% @tapes.each do |tape| %>
   <tr>
     <td><%=h tape.id%></td>
+<<<<<<< HEAD
     <td><%= link_to 'Backupset', :action => 'listbs' %></td>
+=======
+    <td><%=h tape.bsid%></td>
+>>>>>>> master
     <td><%=h tape.voltag %></td>
     <td><%=h tape.server %></td>
     <td><%=h tape.bformat %></td>
