@@ -1,5 +1,5 @@
 class TapesController < ApplicationController
-  # GET /tapes
+
   # GET /tapes.xml
   def listall
     @tapes = Tape.paginate :page => params[:tape], :per_page => 60,  :order => 'id'    
@@ -39,7 +39,7 @@ class TapesController < ApplicationController
   #Display search
   def search
     
-  @tapes = Tape.find (:all, :group => :voltag, :order => :id, :conditions => ["id like ? and  bsid like ? and server like ? and voltag like ? and bformat like ? and btype like ? and bclient like ? and note like ? and testcase like ? ","%#{params[:tape][:id]}%", "%#{params[:tape][:bsid]}%", "%#{params[:tape][:server]}%", "%#{params[:tape][:voltag]}%", "%#{params[:tape][:bformat]}%", "%#{params[:tape][:btype]}%", "%#{params[:tape][:bclient]}%", "%#{params[:tape][:note]}%", "%#{params[:tape][:testcase]}%"])
+  @tapes = Tape.find (:all, :conditions => ["id like ? and  bsid like ? and server like ? and voltag like ? and bformat like ? and btype like ? and bclient like ? and note like ? and testcase like ? ","%#{params[:tape][:id]}%", "%#{params[:tape][:bsid]}%", "%#{params[:tape][:server]}%", "%#{params[:tape][:voltag]}%", "%#{params[:tape][:bformat]}%", "%#{params[:tape][:btype]}%", "%#{params[:tape][:bclient]}%", "%#{params[:tape][:note]}%", "%#{params[:tape][:testcase]}%"])
    
    respond_to do |format| 
       format.html
