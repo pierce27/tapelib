@@ -49,9 +49,10 @@ class TapesController < ApplicationController
 
 
   def listbs
-   @tape = Tape.find(params[:id])  
  
-   @tapes = Tape.find (:all, :conditions => ["voltag like ?", "#{@tape.voltag}"])
+   @tapes = Tape.find(params[:voltag]) 
+
+#Tape.find (:all, :conditions => ["voltag like ?","#{params[:tape][:voltag]}"])
 
  respond_to do |format|
         format.html # new.html.erb
