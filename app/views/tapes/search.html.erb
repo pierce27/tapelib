@@ -27,7 +27,9 @@
 <% @tapes.each do |tape| %>
   <tr>
     <td><%=h tape.id%></td>
-    <td><%= link_to 'Backupset', :action => 'listbs' %></td>
+    <td><%= form_for (@tapes), :url => {:action => :listbs} do |f|%>
+        <%= f.submit 'Backupsets' %>
+        <% end %> </td>
     <td><%=h tape.voltag %></td>
     <td><%=h tape.server %></td>
     <td><%=h tape.bformat %></td>

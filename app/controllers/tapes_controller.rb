@@ -39,7 +39,7 @@ class TapesController < ApplicationController
   #Display search
   def search
     
-  @tapes = Tape.find (:all, :group => :voltag, :conditions => ["id like ? and  bsid like ? and server like ? and voltag like ? and bformat like ? and btype like ? and bclient like ? and note like ? and testcase like ? ","%#{params[:tape][:id]}%", "%#{params[:tape][:bsid]}%", "%#{params[:tape][:server]}%", "%#{params[:tape][:voltag]}%", "%#{params[:tape][:bformat]}%", "%#{params[:tape][:btype]}%", "%#{params[:tape][:bclient]}%", "%#{params[:tape][:note]}%", "%#{params[:tape][:testcase]}%"])
+  @tapes = Tape.find(:all, :group => :voltag, :conditions => ["id like ? and  bsid like ? and server like ? and voltag like ? and bformat like ? and btype like ? and bclient like ? and note like ? and testcase like ? ","%#{params[:tape][:id]}%", "%#{params[:tape][:bsid]}%", "%#{params[:tape][:server]}%", "%#{params[:tape][:voltag]}%", "%#{params[:tape][:bformat]}%", "%#{params[:tape][:btype]}%", "%#{params[:tape][:bclient]}%", "%#{params[:tape][:note]}%", "%#{params[:tape][:testcase]}%"])
    
    respond_to do |format| 
       format.html
@@ -50,11 +50,9 @@ class TapesController < ApplicationController
 
   def listbs
  
-   @tapes = Tape.find(params[:voltag]) 
+      @tapes = Tape.find(:all, :conditions => ["voltag like ?","#{params[:tape][:voltag]}"])
 
-#Tape.find (:all, :conditions => ["voltag like ?","#{params[:tape][:voltag]}"])
-
- respond_to do |format|
+      respond_to do |format|
         format.html # new.html.erb
         format.xml  { render :xml => @tape }
       end
