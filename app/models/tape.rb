@@ -4,8 +4,8 @@ class Tape < ActiveRecord::Base
  validates_numericality_of :id, :on => :save
  
  
- def self.query
-    Tape.find(:all, :conditions => ["bsid like ? and bformat like ? and btype like ? and bclient like ?", "%#{params[:tape][:bsid]}%", "%#{params[:tape][:bformat]}%", "%#{params[:tape][:btype]}%", "%#{params[:tape][:bclient]}%", "%#{params[:tape][:note]}%"])
+ def self.query(params)
+   self.find(:all, :group => :voltag, :conditions => ["id like ? and  bsid like ? and server like ? and voltag like ? and bformat like ? and btype like ? and bclient like ? and note like ? and testcase like ? ","%#{params[:tape][:id]}%", "%#{params[:tape][:bsid]}%", "%#{params[:tape][:server]}%", "%#{params[:tape][:voltag]}%", "%#{params[:tape][:bformat]}%", "%#{params[:tape][:btype]}%", "%#{params[:tape][:bclient]}%", "%#{params[:tape][:note]}%", "%#{params[:tape][:testcase]}%"])
   end
 
 
