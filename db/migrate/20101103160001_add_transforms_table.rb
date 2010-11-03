@@ -11,6 +11,7 @@ class AddTransformsTable < ActiveRecord::Migration
       table.column :btype_t, 	:string
       table.column :battr,	:integer
       table.column :battr_t,	:string		
+   end
   end
 
   def self.down
