@@ -21,7 +21,7 @@ development:
   database: tapelib_development
   pool: 5
   username: root
-  password: ijnokm,
+  password: tworiver,
 
   socket: /var/run/mysqld/mysqld.sock
 
