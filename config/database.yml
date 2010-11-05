@@ -21,7 +21,7 @@ development:
   database: tapelib_development
   pool: 5
   username: root
-  password: tworiver
+  password: admin
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
