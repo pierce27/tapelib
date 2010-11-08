@@ -1,0 +1,12 @@
+<% content_for :title, "Please Login" %>
+
+<h1> Choose an option below <h1>
+  <p>
+ <a href = "http://192.168.192.111/tapes">Search</a><br/>
+<p/>
+<p>
+   <a href = "http://192.168.192.111/tapes/new">New</a><br/>
+<p/>
+ <p>
+  <%= link_to "logout",:controller => "user", :action => "logout" %>
+<p/>

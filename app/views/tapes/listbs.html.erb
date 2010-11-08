@@ -10,7 +10,7 @@
 
 <table>
   <tr>
-    <th> Database ID </th>
+    <th> Tape ID </th>
     <th> Backupset ID</th>
     <th>Volume Tag</th>
     <th>Server</th>
@@ -27,14 +27,13 @@
 <% @tapes.each do |tape| %>
   <tr>
     <td><%=h tape.id%></td>
-    <td><%=h tape.bsid%></td>
     <td><%=h tape.voltag %></td>
     <td><%=h tape.server %></td>
     <td><%=h tape.bformat %></td>
     <td><%=h tape.btype %></td>
     <td><%=h tape.bclient %></td>
     <td><%=h tape.tapelabel %></td>
-    <td><%=h number_to_human_size(tape.size) %></td>
+    <td><%=h tape.size %></td>
     <td><%=h tape.rev %></td>
     <td><%=h tape.note %></td>
     <td><%=if tape.testcase != 0 then link_to (tape.testcase, "http://kama.tworiverlabs.com/bugs/tr_show_case.cgi?case_id=#{tape.testcase}") else "none" end %></td>

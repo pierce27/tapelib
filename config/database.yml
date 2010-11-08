@@ -21,7 +21,12 @@ development:
   database: tapelib_development
   pool: 5
   username: root
+<<<<<<< HEAD
   password: admin
+=======
+  password: tworiver
+
+>>>>>>> 3b517056b3c01b00f8c2d501278a9e831022b6a3
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -34,7 +39,7 @@ test:
   database: tapelib_test
   pool: 5
   username: root
-  password:
+  password: tworiver
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -44,5 +49,5 @@ production:
   database: tapelib_production
   pool: 5
   username: root
-  password: 
+  password: tworiver 
   socket: /var/run/mysqld/mysqld.sock
