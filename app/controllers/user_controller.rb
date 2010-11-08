@@ -16,13 +16,13 @@ class UserController < ApplicationController
 		redirect_to :action=> 'login'
 	end
   end
-  
+ 
  
   def login
   end
 
   def private
-  if session[:use_id]
+  if !session[:user_id]
      redirect_to :action => 'login'
   end
   end
