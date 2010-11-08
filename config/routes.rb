@@ -1,6 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.connect "tapes/:action", :controller => 'tapes', :action => /[a-z]+/i
   map.resources :tapes
+  map.resources :users, :controller => 'user'
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
