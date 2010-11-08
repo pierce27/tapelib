@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
 
   protected
   def authenticate
-        unless User.find(session[:user_name])
+        unless session
                 flash[:notice] = "Invalid User/Password"
                 redirect_to :controller => 'user', :action=> 'login'
         end
