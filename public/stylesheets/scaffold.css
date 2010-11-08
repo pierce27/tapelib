@@ -42,7 +42,7 @@ a:hover { color: #000; background-color:#fff; }
 }
 
 #errorExplanation p {
-  color: #333;
+  color: #000;
   margin-bottom: 0;
   padding: 5px;
 }
@@ -50,6 +50,7 @@ a:hover { color: #000; background-color:#fff; }
 #errorExplanation ul li {
   font-size: 12px;
   list-style: square;
+  color: #000;
 }
 
 #columns {

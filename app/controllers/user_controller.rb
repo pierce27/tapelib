@@ -64,7 +64,7 @@ end
         format.xml  { render :xml => @user, :status => :created,
                              :location => @user }
       else
-        format.html { render :action => "new" }
+        format.html { render :action => "signup" }
         format.xml  { render :xml => @user.errors,
                              :status => :unprocessable_entity }
       end
