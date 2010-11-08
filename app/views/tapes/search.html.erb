@@ -34,7 +34,7 @@
     <td><%=h tape.btype %></td>
     <td><%=h tape.bclient %></td>
     <td><%=h tape.tapelabel %></td>
-    <td><%=h tape.size %></td>
+    <td><%=h number_to_human_size(tape.size) %></td>
     <td><%=h tape.rev %></td>
     <td><%=h tape.note %></td>
     <td><%=if tape.testcase != 0 then link_to (tape.testcase, "http://kama.tworiverlabs.com/bugs/tr_show_case.cgi?case_id=#{tape.testcase}") else "none" end %></td>
