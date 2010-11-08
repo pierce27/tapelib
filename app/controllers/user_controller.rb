@@ -1,4 +1,7 @@
 class UserController < ApplicationController
+  
+  session :on
+  
   def authenticate
     #User.new(params[:userform]) will create a new object of User, retrieve values from the form and store it variable @user.
 	@user = User.new(params[:userform])
