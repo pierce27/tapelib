@@ -30,14 +30,14 @@ class TapesController < ApplicationController
   
   #Search test
   def index
-    valid_user = User.find(:first,:conditions => ["user_name = ? and password = ?",@user.user_name, @user.password])
+    #valid_user = User.find(:first,:conditions => ["user_name = ? and password = ?",@user.user_name, @user.password])
 
-    if valid_user != nil 
+    #if valid_user != nil 
       @tapes = Tape.new
-    else 
-      flash[:notice] = "You are not logged in"
-      redirect_to :controller => 'user', :action => 'login'
-   end
+    #else 
+     # flash[:notice] = "You are not logged in"
+      #redirect_to :controller => 'user', :action => 'login'
+   #end
   end  
    
   

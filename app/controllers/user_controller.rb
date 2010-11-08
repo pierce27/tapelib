@@ -3,7 +3,8 @@ class UserController < ApplicationController
   session :on
   
   def authenticate
-    #User.new(params[:userform]) will create a new object of User, retrieve values from the form and store it variable @user.
+    User.new(params[:userform]) 
+#will create a new object of User, retrieve values from the form and store it variable @user.
 	@user = User.new(params[:userform])
     #find records with username,password
 	valid_user = User.find(:first,:conditions => ["user_name = ? and password = ?",@user.user_name, @user.password])
@@ -18,12 +19,18 @@ class UserController < ApplicationController
 		flash[:notice] = "Invalid User/Password"
 		redirect_to :action=> 'login'
 	end
-  end
- 
+    end
+
  
   def login
-  end
-
+=begin   if request.post?
+     user = User.authenticate(params[:user_name], params[:password])
+    if user 
+      session[:user_id] = user.id
+    end
+   end
+=end
+end
   def private
   if !session[:user_id]
      redirect_to :action => 'login'
