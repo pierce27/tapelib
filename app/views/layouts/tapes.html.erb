@@ -14,9 +14,9 @@
 
  <div id="columns">
    <div id="side" >
-     <a href = "http://192.168.192.111/tapes">Search</a><br/>
-     <a href = "http://192.168.192.111/tapes/new">New</a><br/> 
-     <a href = "http://192.168.192.111/user/logout">Logout</a><br/>
+     <%= link_to "Search", :controller => :tapes, :action => "index" %><br/>
+     <%= link_to "New", :controller => :tapes, :action => "new" %><br/>
+     <%= link_to "Logout", :controller => :user, :action => "logout"%><br/>
  <div>
    <div id = "main">
      <%= yield %>

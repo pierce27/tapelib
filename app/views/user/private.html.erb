@@ -3,10 +3,10 @@
 <h1> Choose an option below <h1>
 
 <p>
- <a href = "http://192.168.192.111/tapes">Search</a><br/>
+  <%= link_to "Search", :controller => "tapes", :action => "index"%>
 <p/>
 <p>
-   <a href = "http://192.168.192.111/tapes/new">New</a><br/>
+  <%= link_to "New", :controller => "tapes", :action => "new"%>
 <p/>
  <p>
   <%= link_to "logout",:controller => "user", :action => "logout" %>
