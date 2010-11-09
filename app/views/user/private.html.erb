@@ -1,4 +1,4 @@
-<% content_for :title, "Welcome" %>
+<% content_for :title, session[:user_id] %>
 
 <h1> Choose an option below <h1>
 
@@ -11,3 +11,5 @@
  <p>
   <%= link_to "logout",:controller => "user", :action => "logout" %>
 <p/>
+<p>
+<%= if session[:user_id] == 'admin' then  link_to "Users",:controller => "user", :action => "users"  end %>
