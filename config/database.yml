@@ -35,7 +35,7 @@ test:
   database: tapelib_test
   pool: 5
   username: root
-  password: tworiver
+  password: admin
   socket: /var/run/mysqld/mysqld.sock
 
 production:

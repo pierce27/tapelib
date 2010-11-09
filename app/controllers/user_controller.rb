@@ -16,7 +16,7 @@ class UserController < ApplicationController
         #redirects the user to our private page.
 		redirect_to :action => :private
 	else
-		flash[:notice] = "Invalid User/Password"
+		flash[:notice] = "Invalid username / password" 
 		redirect_to :action=> 'login'
 	end
     end
