@@ -1,7 +1,14 @@
-<% content_for :title, "Search" %>
+<% if session[:user_id] == nil %>
+<h1> YOU MUST LOGIN </h1>
+<%= link_to "Login", :controller => 'user', :action => 'login'%>
+<% end %>
+
+<% if session[:user_id] != nil %>
+<% content_for :title, 'Search' %>
 <h1> Search For any Tape </h1>
 <p> Fill out as many or as little fields as you wish <p/>
 
+ 
 <% form_for (@tapes), :url => {:action => :search} do |f| %>
   <%= f.error_messages %>
   <p>
@@ -49,6 +56,6 @@
   <p>
     <%= f.submit 'Search' %>
   </p>
- 
-<!%= link_to 'Browse All', :action = "listall" %>
-<%end%>
+<% end %>
+
+<%end%> 
