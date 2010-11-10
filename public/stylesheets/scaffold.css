@@ -71,7 +71,12 @@ a:hover { color: #000; background-color:#fff; }
   padding-left: 1em;
   padding-bottom: 30em;
   width: 9em;
-  background: ##4B7399;
+  background: #4B7399;
+}
+
+#top {
+  float: top;
+  background: #4B7399;
 }
 
 #side a{
