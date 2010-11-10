@@ -1,7 +1,7 @@
-body { background-color: #fff; color: #000; }
+body { background-color: #4B7399; color: #fff; }
 
 body, p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: tahoma, tahoma, tahoma, sans-serif;
   font-size:   13px;
   line-height: 18px;
 }
@@ -21,6 +21,7 @@ a:hover { color: #000; background-color:#fff; }
   background-color: red;
   display: table;
 }
+
 
 #errorExplanation {
   width: 400px;
@@ -42,7 +43,7 @@ a:hover { color: #000; background-color:#fff; }
 }
 
 #errorExplanation p {
-  color: #333;
+  color: #000;
   margin-bottom: 0;
   padding: 5px;
 }
@@ -50,6 +51,7 @@ a:hover { color: #000; background-color:#fff; }
 #errorExplanation ul li {
   font-size: 12px;
   list-style: square;
+  color: #000;
 }
 
 #columns {
@@ -60,7 +62,6 @@ a:hover { color: #000; background-color:#fff; }
   margin-left: 13em;
   padding-left: 2em;
   padding-right: 13em;
-  background: whie;
   width: 130em;
 }
 
@@ -70,11 +71,17 @@ a:hover { color: #000; background-color:#fff; }
   padding-left: 1em;
   padding-bottom: 30em;
   width: 9em;
-  background: #fff;
+  background: #4B7399;
+}
+
+#top {
+  float: top;
+  background: #4B7399;
 }
 
 #side a{
-  color: #bfb
+  color: #FFF;
   font-size: small;
 }
+
 

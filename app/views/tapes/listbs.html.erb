@@ -1,0 +1,57 @@
+<% content_for :title, "Search Results" %>
+
+
+<h1>Your Results</h1>
+
+<p>
+  <b> Number of Results: </b>
+  <%= @tapes.size %> 
+</p>
+
+<table>
+  <tr>
+    <th> Tape ID </th>
+    <th> Backupset ID</th>
+    <th>Volume Tag</th>
+    <th>Server</th>
+    <th>Backup Format</th>
+    <th>Backup Type</th>
+    <th>Client Type</th>
+    <th>Tape Label</th>
+    <th>Size</th>
+    <th>Revision</th>
+    <th>Notes</th>
+    <th>Test Case</th>
+  </tr>
+
+<% @tapes.each do |tape| %>
+  <tr>
+    <td><%=h tape.id%></td>
+    <td><%=h tape.voltag %></td>
+    <td><%=h tape.server %></td>
+    <td><%=h tape.bformat %></td>
+    <td><%=h tape.btype %></td>
+    <td><%=h tape.bclient %></td>
+    <td><%=h tape.tapelabel %></td>
+    <td><%=h tape.size %></td>
+    <td><%=h tape.rev %></td>
+    <td><%=h tape.note %></td>
+    <td><%=if tape.testcase != 0 then link_to (tape.testcase, "http://kama.tworiverlabs.com/bugs/tr_show_case.cgi?case_id=#{tape.testcase}") else "none" end %></td>
+
+    <td><%= link_to 'Show', tape %></td>
+    <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
+    <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+
+<!hr/>
+<!%= will_paginate @tapes %>
+<!hr/>
+
+
+<br />
+
+
+

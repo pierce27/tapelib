@@ -11,15 +11,35 @@
 
 <p style="color: green"><%= flash[:notice] %></p>
 
+<% if session[:user_id] == nil %>
+<h1> YOU MUST LOGIN OR SIGNUP </h1>
+<p>
+<%= link_to "Login", :controller => 'user', :action => 'login'%>
+<%= link_to "Signup", :controller => 'user', :action => 'signup' %>
+</p>
+<% end %>
 
+
+
+<% if session[:user_id] != nil %>
  <div id="columns">
+   <div id = "top">
+    <p>
+         You are logged in as
+        <%= link_to "#{session[:user_id]}", :controller => "user", :action => "private" %>
+    <p/>
+  <div>   
+   
    <div id="side" >
-     <a href = "http://192.168.192.111/tapes">Search</a><br/>
-     <a href = "http://192.168.192.111/tapes/new">New</a><br/> 
-  <div>
+     <%= link_to "Search", :controller => :tapes, :action => "index" %><br/>
+     <%= link_to "New", :controller => :tapes, :action => "new" %><br/>
+     <%= link_to "Logout", :controller => :user, :action => "logout"%><br/>
+   <div>
    <div id = "main">
      <%= yield %>
    <div>
- <div>
+  <div>
+<div>
+<% end %>
 </body>
 </html>
