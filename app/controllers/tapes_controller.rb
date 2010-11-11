@@ -1,17 +1,5 @@
 class TapesController < ApplicationController
 
-  # GET /tapes.xml
-  def listall
-    @tapes = Tape.paginate :page => params[:tape], :per_page => 60,  :order => 'id'    
- 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.xml  { render :xml => @tapes }
-    end
-  end
-
-
-
 
   # GET /tapes/1
   # GET /tapes/1.xml
@@ -22,22 +10,22 @@ class TapesController < ApplicationController
       format.html # show.html.erb
       format.xml  { render :xml => @tape }
     end
+    
   end
 
 
 
 
   
-  #Search test
-  def index
-      @tapes = Tape.new
-   end
-  
+  #Display search page.
+  def search
+    @tapes = Tape.new
+  end  
    
   
 
   #Display search
-  def search
+  def results
     
   @tapes = Tape.query(params)
    
@@ -48,17 +36,6 @@ class TapesController < ApplicationController
    end
 
 
-  def listbs
- 
-      @tapes = Tape.find(:all, :conditions => ["voltag like ?","#{params[:tape][:voltag]}"])
-
-      respond_to do |format|
-        format.html # new.html.erb
-        format.xml  { render :xml => @tape }
-      end
-   
-
-  end
 
   # GET /tapes/new
   # GET /tapes/new.xml
