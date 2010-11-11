@@ -2,7 +2,7 @@ class UserController < ApplicationController
   
   session :on
   
-  def authenticate
+   def authenticate
     User.new(params[:userform]) 
 #will create a new object of User, retrieve values from the form and store it variable @user.
 	@user = User.new(params[:userform])
@@ -13,13 +13,14 @@ class UserController < ApplicationController
 	if valid_user
         #creates a session with username
 		session[:user_id]=valid_user.user_name
+		session[:user_name]=valid_user.firstname
         #redirects the user to our private page.
 		redirect_to :action => :private
 	else
 		flash[:notice] = "Invalid username / password" 
 		redirect_to :action=> 'login'
 	end
-    end
+   end
 
  
   def login
@@ -30,7 +31,8 @@ class UserController < ApplicationController
     end
    end
 =end
-end
+  end
+  
   def private
   if !session[:user_id]
      redirect_to :action => 'login'
@@ -98,4 +100,20 @@ end
       end
     end
   end
+
+
+   def destroy
+    @user = User.find(params[:id])
+    @user.destroy
+
+    respond_to do |format|
+      format.html { redirect_to :action => 'users' }
+      format.xml  { head :ok }
+    end
+  end
+
 end
+
+
+
+

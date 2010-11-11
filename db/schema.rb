@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101103160001) do
+ActiveRecord::Schema.define(:version => 20101110214250) do
 
   create_table "tapes", :force => true do |t|
     t.string   "bsid"
@@ -40,6 +40,15 @@ ActiveRecord::Schema.define(:version => 20101103160001) do
     t.string  "btype_t"
     t.integer "battr"
     t.string  "battr_t"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "user_name"
+    t.string   "password"
+    t.integer  "role"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "firstname"
   end
 
 end
