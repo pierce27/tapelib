@@ -28,7 +28,7 @@ class TapesController < ApplicationController
   def results
     
   @tapes = Tape.query(params)
-   
+  @uniques = Tape.unique(params)   
    respond_to do |format| 
       format.html
       format.xml { render :xml => @tapes }
