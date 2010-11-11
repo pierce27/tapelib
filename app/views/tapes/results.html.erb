@@ -1,0 +1,58 @@
+<% content_for :title, "Search Results" %>
+
+
+<h1>Your Results</h1>
+
+<p>
+  <b> Number of Results: </b>
+  <%= @tapes.size %> 
+</p>
+
+<table>
+  <tr>
+    <th>Volume Tag</th>
+    <th> Backupsets</th>
+    <th>Server</th>
+    <th>Backup Format</th>
+    <th>Backup Type</th>
+    <th>Client Type</th>
+    <th>Tape Label</th>
+    <th>Size</th>
+    <th>Revision</th>
+  </tr>
+
+<% vol = 0 %>
+
+<% @tapes.each do |tape| %>
+  <tr>
+    <td>
+    <% if tape.voltag != vol %>
+    <%=h tape.voltag %>
+    <% end %>
+    </td>
+    <td><%=h tape.bsid %></td>
+    <td><%=h tape.server %></td>
+    <td><%=h tape.bformat %></td>
+    <td><%=h tape.btype %></td>
+    <td><%=h tape.bclient %></td>
+    <td><%=h tape.tapelabel %></td>
+    <td><%=h number_to_human_size(tape.size) %></td>
+    <td><%=h tape.rev %></td>
+    <td><%= link_to 'Details', tape %></td>
+    <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
+    <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% vol = tape.voltag %>
+<% end %>
+</table>
+
+
+<!hr/>
+<!%= will_paginate @tapes %>
+<!hr/>
+
+
+<br />
+
+
+

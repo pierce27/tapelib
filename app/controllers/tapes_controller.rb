@@ -17,22 +17,15 @@ class TapesController < ApplicationController
 
 
   
-  #Search test
-  def index
-    #valid_user = User.find(:first,:conditions => ["user_name = ? and password = ?",@user.user_name, @user.password])
-
-    #if valid_user != nil 
-      @tapes = Tape.new
-    #else 
-     # flash[:notice] = "You are not logged in"
-      #redirect_to :controller => 'user', :action => 'login'
-   #end
+  #Display search page.
+  def search
+    @tapes = Tape.new
   end  
    
   
 
   #Display search
-  def search
+  def results
     
   @tapes = Tape.query(params)
    
@@ -43,17 +36,6 @@ class TapesController < ApplicationController
    end
 
 
-  def listbs
- 
-      @tapes = Tape.find(:all, :conditions => ["voltag like ?","%#{params[:tape][:voltag]}%"])
-
-      respond_to do |format|
-        format.html # new.html.erb
-        format.xml  { render :xml => @tapes}
-      end
-   
-
-  end
 
   # GET /tapes/new
   # GET /tapes/new.xml
