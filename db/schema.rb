@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(:version => 20101110214250) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "note"
-    t.text     "bclient"
+    t.string   "bclient"
     t.integer  "testcase"
   end
 
