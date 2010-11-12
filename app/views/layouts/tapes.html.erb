@@ -31,16 +31,11 @@
   <div>   
    
    <div id="side" >
-<<<<<<< HEAD
-     <%= link_to 'Search', :controller => 'tapes', :action => 'search' %><br/>
-     <%= link_to 'New', :controller => 'tapes', :action => 'new' %><br/>
-=======
      <%= link_to "Search", :controller => :tapes, :action => "search" %>
      |
      <%= link_to "New", :controller => :tapes, :action => "new" %>|
      <%= link_to "Logout", :controller => :user, :action => "logout"%>|
      <%= link_to "My Tapes", :controller => :saved_tapes, :action => "mytapes"%><br/><br/>
->>>>>>> d35122f22e92c8fc29a02f91269bf22376845dca
    <div>
    <div id = "main">
      <%= yield %>
