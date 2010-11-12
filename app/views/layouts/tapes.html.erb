@@ -34,7 +34,8 @@
      <%= link_to "Search", :controller => :tapes, :action => "search" %>
      |
      <%= link_to "New", :controller => :tapes, :action => "new" %>|
-     <%= link_to "Logout", :controller => :user, :action => "logout"%><br/><br/>
+     <%= link_to "Logout", :controller => :user, :action => "logout"%>|
+     <%= link_to "My Tapes", :controller => :saved_tapes, :action => "mytapes"%><br/><br/>
    <div>
    <div id = "main">
      <%= yield %>
