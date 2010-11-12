@@ -1,7 +1,6 @@
 class Tape < ActiveRecord::Base
   
  validates_numericality_of :testcase, :on => :save
- validates_numericality_of :id, :on => :save
  
  
  def self.query(params)
