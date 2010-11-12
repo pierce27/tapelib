@@ -25,15 +25,16 @@
  <div id="columns">
    <div id = "top">
     <p>
-         You are logged in as
+        You are logged in as
         <%= link_to "#{session[:user_id]}", :controller => "user", :action => "private" %>
     <p/>
   <div>   
    
    <div id="side" >
-     <%= link_to "Search", :controller => :tapes, :action => "search" %><br/>
-     <%= link_to "New", :controller => :tapes, :action => "new" %><br/>
-     <%= link_to "Logout", :controller => :user, :action => "logout"%><br/>
+     <%= link_to "Search", :controller => :tapes, :action => "search" %>
+     |
+     <%= link_to "New", :controller => :tapes, :action => "new" %>|
+     <%= link_to "Logout", :controller => :user, :action => "logout"%><br/><br/>
    <div>
    <div id = "main">
      <%= yield %>
