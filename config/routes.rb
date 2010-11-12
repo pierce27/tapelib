@@ -47,5 +47,9 @@ ActionController::Routing::Routes.draw do |map|
 
   map.connect ':controller/:action/'
   map.connect ':controller/:action/:id.:format'
+<<<<<<< HEAD
   map.root :controller => "user", :action => "login"
+=======
+  map.root :controller => "tapes", :action => "search"
+>>>>>>> 28a4980c4f698886aafb811a99095ea691e47cbf
 end
