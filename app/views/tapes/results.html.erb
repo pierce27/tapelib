@@ -4,38 +4,77 @@
 <h1>Your Results</h1>
 
 <p>
+<<<<<<< HEAD
   <b> Number of Results: </b>
   <%= @tapes.size %> 
+=======
+  <b> Number of Tapes: </b>
+  <%= @uniques.size %><br/> 
+  <b> Number of Backupsets: </b>
+  <%= @tapes.size %>
+>>>>>>> d35122f22e92c8fc29a02f91269bf22376845dca
 </p>
 
 <table>
   <tr>
+<<<<<<< HEAD
     <th>Volume Tag</th>
+=======
+    <th></th>
+    <th>Voltag</th>
+    <th>Tape Label</th>
+>>>>>>> d35122f22e92c8fc29a02f91269bf22376845dca
     <th> Backupsets</th>
     <th>Server</th>
     <th>Backup Format</th>
     <th>Backup Type</th>
     <th>Client Type</th>
+<<<<<<< HEAD
     <th>Tape Label</th>
+=======
+>>>>>>> d35122f22e92c8fc29a02f91269bf22376845dca
     <th>Size</th>
     <th>Revision</th>
   </tr>
 
 <% vol = 0 %>
+<<<<<<< HEAD
+=======
+<% tlabel = 0 %>
+>>>>>>> d35122f22e92c8fc29a02f91269bf22376845dca
 
 <% @tapes.each do |tape| %>
   <tr>
     <td>
     <% if tape.voltag != vol %>
+<<<<<<< HEAD
     <%=h tape.voltag %>
     <% end %>
     </td>
+=======
+    <%= link_to 'Save', :voltag => tape.voltag, :controller => 'saved_tapes' %>
+    <% end %>
+    </td>
+    <td>
+    <% if tape.voltag != vol %>
+    <%=h tape.voltag %>
+    <% end %>
+    </td>
+    <td>
+    <% if tape.tapelabel != tlabel %>
+    <%=h tape.tapelabel %>
+    <% end %>
+    </td>
+>>>>>>> d35122f22e92c8fc29a02f91269bf22376845dca
     <td><%=h tape.bsid %></td>
     <td><%=h tape.server %></td>
     <td><%=h tape.bformat %></td>
     <td><%=h tape.btype %></td>
     <td><%=h tape.bclient %></td>
+<<<<<<< HEAD
     <td><%=h tape.tapelabel %></td>
+=======
+>>>>>>> d35122f22e92c8fc29a02f91269bf22376845dca
     <td><%=h number_to_human_size(tape.size) %></td>
     <td><%=h tape.rev %></td>
     <td><%= link_to 'Details', tape %></td>
@@ -43,6 +82,10 @@
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% vol = tape.voltag %>
+<<<<<<< HEAD
+=======
+<% tlabel = tape.tapelabel %>
+>>>>>>> d35122f22e92c8fc29a02f91269bf22376845dca
 <% end %>
 </table>
 

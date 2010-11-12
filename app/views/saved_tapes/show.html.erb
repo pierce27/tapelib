@@ -1,0 +1,13 @@
+<p>
+  <b>Voltag:</b>
+  <%=h @saved_tape.voltag %>
+</p>
+
+<p>
+  <b>Notes:</b>
+  <%=h @saved_tape.notes %>
+</p>
+
+
+<%= link_to 'Edit', edit_saved_tape_path(@saved_tape) %> |
+<%= link_to_function 'Back', "history.back()" %>

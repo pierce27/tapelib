@@ -1,0 +1,20 @@
+<% content_for :title, "Please Login" %>
+
+
+<!% if flash[:notice] %>
+<!div style="font-family:'Trebuchet MS'; color:#FFF; font-size:14px;"></div>
+<!% end %>
+
+<!--creates form, exectues the authenticate method when the submit button is clicked-->
+
+<%= form_tag :action=>'authenticate' %>
+<fieldset>
+<legend>Enter Username and Password</legend>
+ User name:
+ <%= text_field("userform", "user_name",:size=>"20" ) %><br/><br/>
+ Password:
+ <%= password_field("userform", "password",:size=>"20" )%><br/><br/>
+ <input type="submit" value=" LOGIN " />
+</fieldset>
+
+<%= link_to 'Sign Up', :action => :signup %>
