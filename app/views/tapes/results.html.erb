@@ -20,6 +20,7 @@
     <th>Backup Format</th>
     <th>Backup Type</th>
     <th>Client Type</th>
+    <th>Tape Label</th>
     <th>Size</th>
     <th>Revision</th>
   </tr>
@@ -49,6 +50,7 @@
     <td><%=h tape.bformat %></td>
     <td><%=h tape.btype %></td>
     <td><%=h tape.bclient %></td>
+    <td><%=h tape.tapelabel %></td>
     <td><%=h number_to_human_size(tape.size) %></td>
     <td><%=h tape.rev %></td>
     <td><%= link_to 'Details', tape %></td>
@@ -66,7 +68,6 @@
 <!hr/>
 
 
-<br />
 
 
 
