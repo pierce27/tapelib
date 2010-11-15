@@ -5,9 +5,7 @@
 
 <p>
   <b> Number of Tapes: </b>
-  <%= @uniques.size %><br/> 
-  <b> Number of Backupsets: </b>
-  <%= @tapes.size %>
+  <%= @tapes.size %><br/> 
 </p>
 
 <table>
@@ -15,12 +13,7 @@
     <th></th>
     <th>Voltag</th>
     <th>Tape Label</th>
-    <th> Backupsets</th>
-    <th>Server</th>
     <th>Backup Format</th>
-    <th>Backup Type</th>
-    <th>Client Type</th>
-    <th>Tape Label</th>
     <th>Size</th>
     <th>Revision</th>
   </tr>
@@ -45,15 +38,10 @@
     <%=h tape.tapelabel %>
     <% end %>
     </td>
-    <td><%=h tape.bsid %></td>
-    <td><%=h tape.server %></td>
     <td><%=h tape.bformat %></td>
-    <td><%=h tape.btype %></td>
-    <td><%=h tape.bclient %></td>
-    <td><%=h tape.tapelabel %></td>
     <td><%=h number_to_human_size(tape.size) %></td>
     <td><%=h tape.rev %></td>
-    <td><%= link_to 'Details', tape %></td>
+    <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
