@@ -4,50 +4,34 @@
 <h1>Your Results</h1>
 
 <p>
-<<<<<<< HEAD
   <b> Number of Tapes: </b>
   <%= @uniques.size %><br/> 
   <b> Number of Backupsets: </b>
   <%= @tapes.size %>
-=======
-  <b> Number of Results: </b>
-  <%= @tapes.size %> 
->>>>>>> 28a4980c4f698886aafb811a99095ea691e47cbf
 </p>
 
 <table>
   <tr>
-<<<<<<< HEAD
     <th></th>
     <th>Voltag</th>
     <th>Tape Label</th>
-=======
-    <th>Volume Tag</th>
->>>>>>> 28a4980c4f698886aafb811a99095ea691e47cbf
     <th> Backupsets</th>
     <th>Server</th>
     <th>Backup Format</th>
     <th>Backup Type</th>
     <th>Client Type</th>
-<<<<<<< HEAD
-=======
     <th>Tape Label</th>
->>>>>>> 28a4980c4f698886aafb811a99095ea691e47cbf
     <th>Size</th>
     <th>Revision</th>
   </tr>
 
 <% vol = 0 %>
-<<<<<<< HEAD
 <% tlabel = 0 %>
-=======
->>>>>>> 28a4980c4f698886aafb811a99095ea691e47cbf
 
 <% @tapes.each do |tape| %>
   <tr>
     <td>
     <% if tape.voltag != vol %>
-<<<<<<< HEAD
     <%= link_to 'Save', :voltag => tape.voltag, :controller => 'saved_tapes' %>
     <% end %>
     </td>
@@ -61,20 +45,12 @@
     <%=h tape.tapelabel %>
     <% end %>
     </td>
-=======
-    <%=h tape.voltag %>
-    <% end %>
-    </td>
->>>>>>> 28a4980c4f698886aafb811a99095ea691e47cbf
     <td><%=h tape.bsid %></td>
     <td><%=h tape.server %></td>
     <td><%=h tape.bformat %></td>
     <td><%=h tape.btype %></td>
     <td><%=h tape.bclient %></td>
-<<<<<<< HEAD
-=======
     <td><%=h tape.tapelabel %></td>
->>>>>>> 28a4980c4f698886aafb811a99095ea691e47cbf
     <td><%=h number_to_human_size(tape.size) %></td>
     <td><%=h tape.rev %></td>
     <td><%= link_to 'Details', tape %></td>
@@ -82,10 +58,7 @@
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% vol = tape.voltag %>
-<<<<<<< HEAD
 <% tlabel = tape.tapelabel %>
-=======
->>>>>>> 28a4980c4f698886aafb811a99095ea691e47cbf
 <% end %>
 </table>
 
@@ -95,7 +68,6 @@
 <!hr/>
 
 
-<br />
 
 
 
