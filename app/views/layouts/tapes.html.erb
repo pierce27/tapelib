@@ -26,16 +26,17 @@
    <div id = "top">
     <p>
         You are logged in as
-        <%= link_to "#{session[:user_id]}", :controller => "user", :action => "private" %>
+        <%= "#{session[:user_id]}" %>
     <p/>
   <div>   
    
    <div id="side" >
-     <%= link_to "Search", :controller => :tapes, :action => "search" %>
-     |
+     <%= link_to "Home", :controller => "user", :action => "private" %>|
+     <%= link_to "Search", :controller => :tapes, :action => "search" %>|
      <%= link_to "New", :controller => :tapes, :action => "new" %>|
-     <%= link_to "Logout", :controller => :user, :action => "logout"%>|
-     <%= link_to "My Tapes", :controller => :saved_tapes, :action => "mytapes"%><br/><br/>
+     <%= link_to "My Tapes", :controller => :saved_tapes, :action => "mytapes"%>|
+    <%= link_to "Logout", :controller => :user, :action => "logout"%>
+<br/><br/>
    <div>
    <div id = "main">
      <%= yield %>

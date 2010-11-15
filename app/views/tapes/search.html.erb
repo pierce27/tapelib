@@ -1,14 +1,18 @@
 <% content_for :title, 'Search' %>
 <h1> Search For any Tape </h1>
 <p> Fill out as many or as little fields as you wish <p/>
+<FORM>
+<INPUT TYPE="BUTTON" VALUE="Clear Form" ONCLICK="window.location.href='http://tapedev.tworiverlabs.com/tapes/search'">
+</FORM>
+
 
  
 <% form_for (@tapes), :url => {:action => :results} do |f| %>
   <%= f.error_messages %>
   <p>
-    <%= f.label :id, "Database ID: " %><br/>
-    <%= f.text_field :id %>
-  </p> 
+    <%= f.label :voltag, "Volume Tag: " %><br/>
+    <%= f.text_field :voltag %>
+  </p>
   <p>
     <%= f.label :bsid, "Backupset ID:" %><br />
     <%= f.text_field :bsid %>
@@ -16,10 +20,6 @@
   <p>
     <%= f.label :server, "Server Name: " %><br/>
     <%= f.text_field :server %>
-  </p>
-  <p>
-    <%= f.label :voltag, "Volume Tag: " %><br/>
-    <%= f.text_field :voltag %>
   </p>
   <p>
     <%= f.label :bformat, "Backup Format: " %><br/>
