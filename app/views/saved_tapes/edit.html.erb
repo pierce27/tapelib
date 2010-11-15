@@ -1,0 +1,20 @@
+<h1>Editing saved_tape</h1>
+
+<% form_for(@saved_tape) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :voltag %><br />
+    <%= f.text_field :voltag %>
+  </p>
+  <p>
+    <%= f.label :notes %><br />
+    <%= f.text_field :notes %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @saved_tape %> |
+<%= link_to 'Back', :controller => 'saved_tapes', :action => 'mytapes' %>

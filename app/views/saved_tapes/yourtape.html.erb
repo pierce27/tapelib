@@ -1,0 +1,60 @@
+
+<h1><%= params[:voltag] %></h1>
+
+<p>
+  <b> Number of Backupsets: </b>
+  <%= @yourtapes.size %>
+</p>
+
+<table>
+  <tr>
+    <th>Voltag</th>
+    <th>Tape Label</th>
+    <th> Backupsets</th>
+    <th>Server</th>
+    <th>Backup Format</th>
+    <th>Backup Type</th>
+    <th>Client Type</th>
+    <th>Size</th>
+    <th>Revision</th>
+  </tr>
+
+<% vol = 0 %>
+<% tlabel = 0 %>
+
+<% @yourtapes.each do |tape| %>
+  <tr>
+    <td>
+    <% if tape.voltag != vol %>
+    <%=h tape.voltag %>
+    <% end %>
+    </td>
+    <td>
+    <% if tape.tapelabel != tlabel %>
+    <%=h tape.tapelabel %>
+    <% end %>
+    </td>
+    <td><%=h tape.bsid %></td>
+    <td><%=h tape.server %></td>
+    <td><%=h tape.bformat %></td>
+    <td><%=h tape.btype %></td>
+    <td><%=h tape.bclient %></td>
+    <td><%=h number_to_human_size(tape.size) %></td>
+    <td><%=h tape.rev %></td>
+        <td><%= link_to 'Details', tape %></td>
+    <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
+    <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% vol = tape.voltag %>
+<% tlabel = tape.tapelabel %>
+<% end %>
+</table>
+
+
+<!hr/>
+<!%= will_paginate @tapes %>
+<!hr/>
+
+
+<br />
+

@@ -1,0 +1,26 @@
+<h1>
+<%= session[:user_name] %>
+'s Saved Tapes
+</h1>
+
+<table>
+  <tr>
+    <th>Voltag</th>
+    <th>Notes</th>
+  </tr>
+
+<% @saved_tapes.each do |saved_tape| %>
+  <tr>
+    <td><%=h saved_tape.voltag %></td>
+    <td><%=h saved_tape.notes %></td>
+    <td><%= link_to 'View', :voltag => saved_tape.voltag, :action => :yourtape %></td>
+    <td><%= link_to 'Edit', edit_saved_tape_path(saved_tape) %></td>
+    <td><%= link_to 'Destroy', :action => 'destroy', :id => saved_tape.id %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Add', new_saved_tape_path %>
+<%= link_to_function 'Back', "history.back()" %>

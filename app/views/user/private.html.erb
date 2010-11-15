@@ -6,18 +6,17 @@
 <h1/> 
 <% end %>
 
-<% if session[:user_name] == nil %>
-<% content_for :title, session[:user_id] %>
-<h1> Choose an option below <h1>
-<% end %>
 
 
 <p>
-  <%= link_to "Search", :controller => "tapes", :action => "index"%>
+  <%= link_to "Search", :controller => "tapes", :action => "search"%>
 <p/>
 <p>
   <%= link_to "New", :controller => "tapes", :action => "new"%>
 <p/>
+<p>
+  <%= link_to "My Tapes", :controller => "saved_tapes", :action => "mytapes" %>
+<p/>  
 <p>
 <%= if session[:user_id] == 'admin' then  link_to "Users",:controller => "user", :action => "users"  end %>
 <p/>
