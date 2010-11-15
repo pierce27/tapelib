@@ -44,7 +44,11 @@
     <% end %>
     </td>
     <td><%=h tape.bformat %></td>
+<<<<<<< HEAD
     <td><%=h number_to_human_size(sizetotal) %></td>
+=======
+    <td><%=h number_to_human_size(tape.size) %></td>
+>>>>>>> 17e6fc0c6a556b5136993bc09c81e1ad5d5d4d47
     <td><%=h tape.rev %></td>
     <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
