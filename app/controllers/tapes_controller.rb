@@ -22,7 +22,7 @@ class TapesController < ApplicationController
     @tapes = Tape.new
   end  
    
-  
+      
 
   #Display search
   def results
