@@ -5,9 +5,7 @@
 
 <p>
   <b> Number of Tapes: </b>
-  <%= @uniques.size %><br/> 
-  <b> Number of Backupsets: </b>
-  <%= @tapes.size %>
+  <%= @tapes.size %><br/> 
 </p>
 
 <table>
@@ -15,50 +13,47 @@
     <th></th>
     <th>Voltag</th>
     <th>Tape Label</th>
-    <th> Backupsets</th>
-    <th>Server</th>
     <th>Backup Format</th>
-    <th>Backup Type</th>
-    <th>Client Type</th>
-    <th>Tape Label</th>
-    <th>Size</th>
     <th>Revision</th>
+    <th>Size</th>
+    <th> Backupsets</th>
   </tr>
 
-<% vol = 0 %>
-<% tlabel = 0 %>
+
 
 <% @tapes.each do |tape| %>
   <tr>
+    <% vol = tape.voltag %>
+    <% bvol = 0 %>
+    <% size = 0 %>
+    <% i = 0 %>
     <td>
-    <% if tape.voltag != vol %>
     <%= link_to 'Save', :voltag => tape.voltag, :controller => 'saved_tapes' %>
-    <% end %>
     </td>
     <td>
-    <% if tape.voltag != vol %>
     <%=h tape.voltag %>
-    <% end %>
     </td>
     <td>
-    <% if tape.tapelabel != tlabel %>
     <%=h tape.tapelabel %>
-    <% end %>
-    </td>
-    <td><%=h tape.bsid %></td>
-    <td><%=h tape.server %></td>
     <td><%=h tape.bformat %></td>
-    <td><%=h tape.btype %></td>
-    <td><%=h tape.bclient %></td>
-    <td><%=h tape.tapelabel %></td>
-    <td><%=h number_to_human_size(tape.size) %></td>
     <td><%=h tape.rev %></td>
-    <td><%= link_to 'Details', tape %></td>
+    <% begin  %>
+    <%  @backupsets.each do |b| %>
+    <%   bvol = b.voltag %>
+    <%   size = size + b.size %>
+    <%   i = i + 1  %>
+    <%  end while vol = bvol %>
+    <% end %>
+    <td> 
+    <%=h size %>
+    </td>
+    <td>
+    <%=h i %>
+    </td>
+    <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
-<% vol = tape.voltag %>
-<% tlabel = tape.tapelabel %>
 <% end %>
 </table>
 
