@@ -21,6 +21,7 @@
 
 
 
+
 <% @tapes.each do |tape| %>
   <tr>
     <% vol = tape.voltag %>
@@ -35,6 +36,7 @@
     </td>
     <td>
     <%=h tape.tapelabel %>
+<<<<<<< HEAD
     <td><%=h tape.bformat %></td>
     <td><%=h tape.rev %></td>
     <% begin  %>
@@ -50,6 +52,12 @@
     <td>
     <%=h i %>
     </td>
+=======
+    <% end %>
+    </td>
+    <td><%=h tape.bformat %></td>
+    <td><%=h tape.rev %></td>
+>>>>>>> 7d9f2effe9071783d4b09566d40d3814a3e1fa3c
     <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>

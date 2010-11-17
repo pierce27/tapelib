@@ -6,6 +6,17 @@
   <%= @yourtapes.size %>
 </p>
 
+<% total = 0 %>
+<% @yourtapes.each do |t| %>
+<% total = total + t.size %>
+<% end %>
+
+<p>
+  <b> Size of Tape </b>
+  <%= total %>
+</p>
+
+
 <table>
   <tr>
     <th>Voltag</th>
