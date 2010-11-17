@@ -94,7 +94,7 @@ class TapesController < ApplicationController
     
 
         flash[:notice] = 'Tape was successfully updated.'
-        #redirect_to "/tapes/results" 
+        redirect_to "/tapes/search" 
 
     
    end
