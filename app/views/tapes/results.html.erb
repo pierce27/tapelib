@@ -14,7 +14,6 @@
     <th>Voltag</th>
     <th>Tape Label</th>
     <th>Backup Format</th>
-    <th>Size</th>
     <th>Revision</th>
   </tr>
 
@@ -40,7 +39,6 @@
     <% end %>
     </td>
     <td><%=h tape.bformat %></td>
-    <td><%=h number_to_human_size(tape.size) %></td>
     <td><%=h tape.rev %></td>
     <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
