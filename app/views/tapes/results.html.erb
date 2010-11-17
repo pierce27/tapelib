@@ -12,10 +12,15 @@
   <tr>
     <th></th>
     <th>Voltag</th>
+    <th></th>
     <th>Tape Label</th>
+    <th></th>
     <th>Backup Format</th>
+    <th></th>
     <th>Revision</th>
+    <th></th>
     <th>Size</th>
+    <th></th>
     <th> Backupsets</th>
   </tr>
 
@@ -25,39 +30,29 @@
 <% @tapes.each do |tape| %>
   <tr>
     <% vol = tape.voltag %>
-    <% bvol = 0 %>
     <% size = 0 %>
     <% i = 0 %>
-    <td>
-    <%= link_to 'Save', :voltag => tape.voltag, :controller => 'saved_tapes' %>
-    </td>
-    <td>
-    <%=h tape.voltag %>
-    </td>
-    <td>
-    <%=h tape.tapelabel %>
-<<<<<<< HEAD
-    <td><%=h tape.bformat %></td>
-    <td><%=h tape.rev %></td>
-    <% begin  %>
-    <%  @backupsets.each do |b| %>
-    <%   bvol = b.voltag %>
+
+    <!Calculating size of tape and # of bsets >
+    <%  @backupsets.each do  |b| %>
+    <%   if vol == b.voltag %>
     <%   size = size + b.size %>
     <%   i = i + 1  %>
-    <%  end while vol = bvol %>
-    <% end %>
-    <td> 
-    <%=h size %>
-    </td>
-    <td>
-    <%=h i %>
-    </td>
-=======
-    <% end %>
-    </td>
+    <%   end %>
+    <%  end  %>
+    
+   <td> <%= link_to 'Save', :voltag => tape.voltag, :controller => 'saved_tapes' %></td>
+    <td><%=h tape.voltag %></td>
+    <td>- -</td>
+    <td><%=h tape.tapelabel %></td>
+    <td>------</td>
     <td><%=h tape.bformat %></td>
+    <td></td>
     <td><%=h tape.rev %></td>
->>>>>>> 7d9f2effe9071783d4b09566d40d3814a3e1fa3c
+    <td>------</td>
+    <td><%=h number_to_human_size(size) %></td>
+    <td>------</td>
+    <td><%=h i %></td>
     <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
@@ -69,7 +64,6 @@
 <!hr/>
 <!%= will_paginate @tapes %>
 <!hr/>
-
 
 
 
