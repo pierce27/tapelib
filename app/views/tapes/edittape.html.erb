@@ -1,0 +1,26 @@
+<% content_for :title, "Edit Tape" %>
+
+
+<h1>Editing Tape</h1>
+
+<% form_for (@tape), :url => {:action => :updatetape} do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :voltag %><br />
+    <%= f.text_field :voltag %>
+  </p>
+  <p>
+    <%= f.label :tapelabel %><br />
+    <%= f.text_field :tapelabel %>
+  </p>
+  <p>
+    <%= f.label :bformat %><br />
+    <%= f.text_field :bformat %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<% link_to_function 'Back', "history.back()" %>

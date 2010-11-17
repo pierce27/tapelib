@@ -54,7 +54,7 @@
     <td>------</td>
     <td><%=h i %></td>
     <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
-    <td><%= link_to 'Edit', :action => :edit_tape %></td>
+    <td><%= link_to 'Edit', :id => tape.id, :action => 'edittape' %></td>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>

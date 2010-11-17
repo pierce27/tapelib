@@ -60,7 +60,8 @@ class TapesController < ApplicationController
   
 
   #EDIT Tape
-  def edit_tape
+  def edittape
+   @tape = Tape.find(params[:id])
   end
 
 
@@ -81,7 +82,31 @@ class TapesController < ApplicationController
     end
   end
 
+ 
 
+
+  def updatetape
+    @tapes = Tape.find(:all, :order => :voltag,  :conditions => ["voltag like ?", "%#{params[:voltag]}%"])
+    
+   @tapes.each do |tape|  
+      tape.update_attributes(params[:tape])
+      end
+    
+
+   respond_to do |format|
+      if @tape.update_attributes(params[:tape])
+        flash[:notice] = 'Tape was successfully updated.'
+        format.html { redirect_to(@tape) }
+        format.xml  { head :ok }
+      else
+        format.html { render :action => "edit" }
+        format.xml  { render :xml => @tape.errors, :status => :unprocessable_entity }
+
+    end
+   end
+  end
+ 
+    
 
 
 
