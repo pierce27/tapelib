@@ -56,6 +56,14 @@ class TapesController < ApplicationController
     @tape = Tape.find(params[:id])
   end
 
+
+  
+
+  #EDIT Tape
+  def edit_tape
+  end
+
+
   # POST /tapes
   # POST /tapes.xml
   def create

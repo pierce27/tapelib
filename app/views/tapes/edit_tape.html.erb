@@ -1,0 +1,26 @@
+<% content_for :title, "Edit Tape" %>
+
+
+<h1>Editing Backupset</h1>
+
+<% form_for(@tape) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :bsid %><br />
+    <%= f.text_field :bsid %>
+  </p>
+  <p>
+    <%= f.label :server %><br />
+    <%= f.text_field :server %>
+  </p>
+  <p>
+    <%= f.label :backupstamp %><br />
+    <%= f.text_field :backupstamp %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<% link_to_function 'Back', "history.back()" %>
