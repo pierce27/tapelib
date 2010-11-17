@@ -19,7 +19,7 @@ class TapesController < ApplicationController
   
   #Display search page.
   def search
-    @tapes = Tape.new
+	    @tapes = Tape.new
   end  
    
       
@@ -86,25 +86,19 @@ class TapesController < ApplicationController
 
 
   def updatetape
-    @tapes = Tape.find(:all, :order => :voltag,  :conditions => ["voltag like ?", "%#{params[:voltag]}%"])
+    @tapes = Tape.find(:all, :order => :voltag,  :conditions => ["voltag like ?", "%#{params[:tape][:voltag]}%"])
     
    @tapes.each do |tape|  
       tape.update_attributes(params[:tape])
       end
     
 
-   respond_to do |format|
-      if @tape.update_attributes(params[:tape])
         flash[:notice] = 'Tape was successfully updated.'
-        format.html { redirect_to(@tape) }
-        format.xml  { head :ok }
-      else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @tape.errors, :status => :unprocessable_entity }
+        #redirect_to "/tapes/results" 
 
-    end
+    
    end
-  end
+  
  
     
 
