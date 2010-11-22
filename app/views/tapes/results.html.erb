@@ -30,13 +30,11 @@
 <% @tapes.each do |tape| %>
   <tr>
     <% vol = tape.voltag %>
-    <% size = 0 %>
     <% i = 0 %>
 
     <!Calculating size of tape and # of bsets >
     <%  @backupsets.each do  |b| %>
     <%   if vol == b.voltag %>
-    <%   size = size + b.size %>
     <%   i = i + 1  %>
     <%   end %>
     <%  end  %>
@@ -50,7 +48,7 @@
     <td></td>
     <td><%=h tape.rev %></td>
     <td>------</td>
-    <td><%=h number_to_human_size(size) %></td>
+    <td><%=h number_to_human_size(tape.size) %></td>
     <td>------</td>
     <td><%=h i %></td>
     <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>

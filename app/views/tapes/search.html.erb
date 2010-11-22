@@ -13,15 +13,7 @@
     <%= f.label :voltag, "Volume Tag: " %><br/>
     <%= f.text_field :voltag %>
   </p>
-  <p>
-    <%= f.label :bsid, "Backupset ID:" %><br />
-    <%= f.text_field :bsid %>
-  </p>
-  <p>
-    <%= f.label :server, "Server Name: " %><br/>
-    <%= f.text_field :server %>
-  </p>
-  <p>
+    <p>
     <%= f.label :bformat, "Backup Format: " %><br/>
     <%= f.collection_select :bformat, Tape::BFORMATS, :to_s, :to_s, :include_blank => true
     %>
@@ -37,6 +29,16 @@
    <%= f.label :btype, "Backup Client: " %><br/>
    <%= f.collection_select :bclient, Tape::BCLIENTS, :to_s, :to_s, :include_blank => true
     %>
+  </p>
+
+
+  <p>
+    <%= f.label :bsid, "Backupset ID:" %><br />
+    <%= f.text_field :bsid %>
+  </p>
+  <p>
+    <%= f.label :server, "Server Name: " %><br/>
+    <%= f.text_field :server %>
   </p>
   <p>
   <%= f.label "Test Case #" %><br/>
