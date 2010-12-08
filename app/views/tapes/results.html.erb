@@ -22,6 +22,8 @@
     <th>Size</th>
     <th></th>
     <th> Backupsets</th>
+    <th></th>
+    <th>Notes</th>
   </tr>
 
 
@@ -32,9 +34,9 @@
     <% vol = tape.voltag %>
     <% i = 0 %>
 
-    <!Calculating size of tape and # of bsets >
+    <Calculating # of bsets >
     <%  @backupsets.each do  |b| %>
-    <%   if vol == b.voltag %>
+    <%   if b.voltag == "#{vol}" %>
     <%   i = i + 1  %>
     <%   end %>
     <%  end  %>
@@ -47,10 +49,12 @@
     <td><%=h tape.bformat %></td>
     <td></td>
     <td><%=h tape.rev %></td>
-    <td>------</td>
+    <td></td>
     <td><%=h number_to_human_size(tape.size) %></td>
     <td>------</td>
     <td><%=h i %></td>
+    <td>------</td>
+    <td><%=h tape.note %></td>
     <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', :id => tape.id, :action => 'edittape' %></td>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
