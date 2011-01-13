@@ -5,19 +5,17 @@
 
 <table>
   <tr>
-    <th>Name</th>
-    <th>Username</th>
-    <th>Password</th>
+    <th>Name</th> 
+    <!thPassword<!/th>
   </tr>
 
 <% @users.each do |user| %>
   <tr>
     <td><%=h user.firstname %></td>
-    <td><%=h user.user_name %></td>
-    <td><%=h user.password %></td> 
-    <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user, :confirm => 'Are you sure?', :method => 
-:delete %></td>
+    <!td><!%=h user.password %!><!/td> 
+    <!td><!%= link_to 'Edit', edit_user_path(user) %><!/td>
+    <!td><!%= link_to 'Destroy', user, :confirm = 'Are you sure?', :method = :delete %><!/td>
+    <td><%= link_to 'Their Tapes', :user => user.username, :controller => 'saved_tapes', action => 'theirtapes' %></td>
   </tr>
 <% end %>
 </table>

@@ -18,7 +18,7 @@
   <%= link_to "My Tapes", :controller => "saved_tapes", :action => "mytapes" %>
 <p/>  
 <p>
-<%= if session[:user_id] == 'admin' then  link_to "Users",:controller => "user", :action => "users"  end %>
+<%= link_to "Users",:controller => "user", :action => "users" %>
 <p/>
  <p>
   <%= link_to "logout",:controller => "user", :action => "logout" %>

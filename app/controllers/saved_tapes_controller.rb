@@ -10,6 +10,16 @@ class SavedTapesController < ApplicationController
     end
   end
 
+  def theirtapes
+   @saved_tapes = SavedTape.find(:all, :conditions => ["user like ?", "#{params[:user]}"])
+
+    respond_to do |format|
+     format.html # index.html.erb
+      format.xml  { render :xml => @saved_tapes }
+   end
+  end
+
+
   
   def yourtape
     @yourtapes = Tape.find(:all, :conditions => ["voltag like ?", "%#{params[:voltag]}%"])
