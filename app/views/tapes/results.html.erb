@@ -57,15 +57,16 @@
     <td><%=h tape.note %></td>
     <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', :id => tape.id, :action => 'edittape' %></td>
+    <% if session[:user_id] == 'admin' then %>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% end %>
   </tr>
 <% end %>
 </table>
 
-
-<!hr/>
-<!%= will_paginate @tapes %>
-<!hr/>
+<hr>
+<%= will_paginate @tapes, :params => {:search => params[:search]} %>
+<hr/>
 
 
 

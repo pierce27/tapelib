@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   validates_presence_of	:user_name, :on => :create, :message => "can't be blank"
+  validates_uniqueness_of :user_name, :on => :create, :message => "Already taken"
   validates_presence_of :password, :on => :create, :message => "can't be blank"
    validates_presence_of :firstname, :on => :create, :message => "can't be blank"
  
