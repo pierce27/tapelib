@@ -5,15 +5,18 @@
 
 <table>
   <tr>
-    <!thPassword<!/th>
   </tr>
 
 <% @users.each do |user| %>
   <tr>
-    <!td><!%=h user.password %!><!/td> 
-    <!td><!%= link_to 'Edit', edit_user_path(user) %><!/td>
-    <!td><!%= link_to 'Destroy', user, :confirm = 'Are you sure?', :method = :delete %><!/td>
     <td><%= link_to user.firstname, :user => user.user_name, :controller => 'saved_tapes', :action => 'theirtapes' %></td>
+    <% if session[:user_id] == 'admin' then %>
+    <td><%=h user.user_name %></td>
+    <td><%=h user.password %></td>
+    <td><%= link_to 'Edit', edit_user_path(user) %></td>
+    <td><%= link_to 'Destroy', user, :confirm => 'Are you sure?', :method => :delete %></td>
+    <% end %>
+
   </tr>
 <% end %>
 </table>
