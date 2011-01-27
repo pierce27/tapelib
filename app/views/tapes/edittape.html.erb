@@ -15,8 +15,9 @@
     <%= f.text_field :tapelabel %>
   </p>
   <p>
-    <%= f.label :bformat %><br />
-    <%= f.text_field :bformat %>
+    <%= f.label :bformat, "Backup Format: " %><br/>
+    <%= f.collection_select :bformat, Tape::BFORMATS, :to_s, :to_s, :include_blank => true
+    %>
   </p>
   <p>
     <%= f.label :note %><br/>
