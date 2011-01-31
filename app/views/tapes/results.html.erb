@@ -57,6 +57,7 @@
     <td><%=h tape.note %></td>
     <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', :id => tape.id, :action => 'edittape' %></td>
+    <td><%= link_to ('Playback', "http://192.168.192.74/#{tape.voltag}") %></td>
     <% if session[:user_id] == 'admin' then %>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
     <% end %>
