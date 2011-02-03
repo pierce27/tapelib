@@ -24,6 +24,8 @@
     <th> Backupsets</th>
     <th></th>
     <th>Notes</th>
+    <th></th>
+    <th>TestCase</th>
   </tr>
 
 
@@ -55,11 +57,22 @@
     <td><%=h i %></td>
     <td>------</td>
     <td><%=h tape.note %></td>
+    <td>------</td>
+
+    <% if tape.testcase != 0 then %>
+    <td><%= link_to tape.testcase, "http://kama.tworiverlabs.com/bugs/tr_show_case.cgi?case_id=#{tape.testcase}" %></td>
+    <% else %>
+    <td> none </td>
+    <% end %>
+
     <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', :id => tape.id, :action => 'edittape' %></td>
+    <td><%= link_to ('Playback', "http://192.168.192.111:3000/#{tape.voltag}") %></td>
+
     <% if session[:user_id] == 'admin' then %>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
     <% end %>
+
   </tr>
 <% end %>
 </table>
