@@ -3,7 +3,7 @@
 
 <h1>Editing Tape</h1>
 
-<% form_for (@tape), :url => {:action => :updatetape} do |f| %>
+<% form_for (@tapes),  :url => {:action => :update_selected} do |f| %>
   <%= f.error_messages %>
 
   <p>
@@ -24,10 +24,9 @@
     <%= f.text_field :note %>
   </p>
   <p>
-    <%= f.label :testcase %><br/>
-    <%= f.text_field :testcase %>
+    <%= f.label :check %><br/>
+    <%= f.text_field :check %>
   </p>
-
   <p>
     <%= f.submit 'Update' %>
   </p>

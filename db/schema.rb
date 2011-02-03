@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101112191643) do
+ActiveRecord::Schema.define(:version => 20110203201551) do
 
   create_table "saved_tapes", :force => true do |t|
     t.string   "voltag"
@@ -28,13 +28,14 @@ ActiveRecord::Schema.define(:version => 20101112191643) do
     t.string   "broot"
     t.string   "tapelabel"
     t.string   "voltag"
-    t.integer  "size"
+    t.integer  "size",        :limit => 8
     t.string   "rev"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "note"
-    t.text     "bclient"
+    t.string   "bclient"
     t.integer  "testcase"
+    t.boolean  "selected"
   end
 
   create_table "transforms", :force => true do |t|
