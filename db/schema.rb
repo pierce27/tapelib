@@ -9,7 +9,11 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(:version => 20110203201551) do
+=======
+ActiveRecord::Schema.define(:version => 20110207165751) do
+>>>>>>> v1.0
 
   create_table "saved_tapes", :force => true do |t|
     t.string   "voltag"
@@ -36,6 +40,11 @@ ActiveRecord::Schema.define(:version => 20110203201551) do
     t.string   "bclient"
     t.integer  "testcase"
     t.boolean  "selected"
+<<<<<<< HEAD
+=======
+    t.integer  "bug"
+    t.string   "servertype"
+>>>>>>> v1.0
   end
 
   create_table "transforms", :force => true do |t|
