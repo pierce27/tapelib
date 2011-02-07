@@ -10,9 +10,10 @@
     <th> Backupsets</th>
     <th>Server</th>
     <th>Backup Format</th>
+    <th>Revision</th>
     <th>Backup Type</th>
     <th>Client Type</th>
-    <th>Revision</th>
+    <th>Server Type</th>
   </tr>
 
 <% vol = 0 %>
@@ -33,10 +34,12 @@
     <td><%=h tape.bsid %></td>
     <td><%=h tape.server %></td>
     <td><%=h tape.bformat %></td>
+    <td><%=h tape.rev %></td>
     <td><%=h tape.btype %></td>
     <td><%=h tape.bclient %></td>
-    <td><%=h tape.rev %></td>
-        <td><%= link_to 'Details', tape %></td>
+    <td><%=h tape.servertype %></td>
+    
+    <td><%= link_to 'Details', tape %></td>
     <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
