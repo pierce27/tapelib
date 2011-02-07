@@ -65,7 +65,7 @@
     <td> none </td>
     <% end %>
 
-    <td><%= link_to 'Details', :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
+    <td><%= link_to 'Details', :bformat => tape.bformat, :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', :id => tape.id, :action => 'edittape' %></td>
     <td><%= link_to ('Playback', "http://192.168.192.111:3000/Playbacks/#{tape.bformat}/#{tape.voltag}") %></td>
 
