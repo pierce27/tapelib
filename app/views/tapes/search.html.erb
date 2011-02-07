@@ -38,9 +38,15 @@
     <%= f.text_field :server %>
   </p>
   <p>
+  <%= f.label :servertype, "Server Type: (Ex: Exchange 2003, Windows XP, Domino 8.0.1, etc..)" %><br/>
+  <%= f.text_field :servertype %>
+  </p>
+
+  <p>
   <%= f.label "Test Case #" %><br/>
   <%= f.text_field :testcase %>
   </p>
+  
   <p>
   <%= f.label :note, "Notes: " %><br/>
   <%= f.text_area :note, :rows => 7 %>
