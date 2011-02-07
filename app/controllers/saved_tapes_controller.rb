@@ -22,7 +22,7 @@ class SavedTapesController < ApplicationController
 
   
   def yourtape
-    @yourtapes = Tape.find(:all, :conditions => ["voltag like ?", "%#{params[:voltag]}%"])
+    @yourtapes = Tape.find(:all, :conditions => ["voltag like ?", "#{params[:voltag]}"])
     
     respond_to do |format|
       format.html
