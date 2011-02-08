@@ -33,6 +33,7 @@
    <div id="side" >
      <%= link_to "Home", :controller => "user", :action => "private" %>|
      <%= link_to "Search", :controller => :tapes, :action => "search" %>|
+     <%= link_to "Playbacks", "http://192.168.192.111:3000/Playbacks", :target => '_blank' %>
      <%= link_to "New", :controller => :tapes, :action => "new" %>|
      <%= link_to "My Tapes", :controller => :saved_tapes, :action => "mytapes"%>|
     <%= link_to "Logout", :controller => :user, :action => "logout"%>

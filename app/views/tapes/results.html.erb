@@ -67,7 +67,7 @@
 
     <td><%= link_to 'Details', :bformat => tape.bformat, :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', :id => tape.id, :action => 'edittape' %></td>
-    <td><%= link_to ('Playback', "http://192.168.192.111:3000/Playbacks/#{tape.bformat}/#{tape.voltag}") %></td>
+    <td><%= link_to ('Download', "http://192.168.192.111:3000/Playbacks/#{tape.bformat}/#{tape.voltag}", :target => '_blank') %></td>
 
     <% if session[:user_id] == 'admin' then %>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
