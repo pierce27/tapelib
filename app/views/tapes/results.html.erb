@@ -26,6 +26,9 @@
     <th>Notes</th>
     <th></th>
     <th>TestCase</th>
+    <th></th>
+    <th>Bug</th>
+    <th></th>
   </tr>
 
 
@@ -60,14 +63,23 @@
     <td>------</td>
 
     <% if tape.testcase != 0 then %>
-    <td><%= link_to tape.testcase, "http://kama.tworiverlabs.com/bugs/tr_show_case.cgi?case_id=#{tape.testcase}" %></td>
+    <td><%= link_to tape.testcase, "http://kama.tworiverlabs.com/bugs/tr_show_case.cgi?case_id=#{tape.testcase}", :target => '_blank' %></td>
     <% else %>
     <td> none </td>
     <% end %>
+    
+    <td>------</td>
+      
+    <% if tape.bug != 0 then %>
+    <td><%= link_to tape.bug, "http://kama.tworiverlabs.com/bugs/show_bug.cgi?id=#{tape.bug}", :target => '_blank' %></td>
+    <% else %>
+    <td> none </td>
+    <% end %>
+    
 
-    <td><%= link_to 'Details', :bformat => tape.bformat, :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
+    <td><td><%= link_to 'Details', :bformat => tape.bformat, :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
     <td><%= link_to 'Edit', :id => tape.id, :action => 'edittape' %></td>
-    <td><%= link_to ('Playback', "http://192.168.192.111:3000/Playbacks/#{tape.bformat}/#{tape.voltag}") %></td>
+    <td><%= link_to ('Download', "http://192.168.192.111:3000/Playbacks/#{tape.bformat}/#{tape.voltag}", :target => '_blank') %></td>
 
     <% if session[:user_id] == 'admin' then %>
     <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
