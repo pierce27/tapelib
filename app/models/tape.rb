@@ -1,6 +1,7 @@
 class Tape < ActiveRecord::Base
   
  validates_numericality_of :testcase, :on => :save
+ validates_numericality_of :bug, :on => :save
  validates_presence_of :bsid, :on => :save
  validates_presence_of :server, :on => :save
  validates_presence_of :bformat, :on => :save 
@@ -9,14 +10,14 @@ class Tape < ActiveRecord::Base
  validates_presence_of :voltag, :on => :save
  
  def self.query(params)
-   self.find(:all, :group => :voltag,   :order => :voltag, :conditions => ["bsid like ? and server like ? and voltag like ? and bformat like ? and btype like ? and bclient like ? and note like ? and testcase like ? and servertype like ?","%#{params[:tape][:bsid]}%", "%#{params[:tape][:server]}%", "%#{params[:tape][:voltag]}%", "%#{params[:tape][:bformat]}%", "%#{params[:tape][:btype]}%", "%#{params[:tape][:bclient]}%", "%#{params[:tape][:note]}%", "%#{params[:tape][:testcase]}%", "%#{params[:tape][:servertype]}%"])
+   self.find(:all, :group => :voltag,   :order => :voltag, :conditions => ["bsid like ? and server like ? and voltag like ? and bformat like ? and btype like ? and bclient like ? and note like ? and testcase like ? and servertype like ? and bug like ?","%#{params[:tape][:bsid]}%", "%#{params[:tape][:server]}%", "%#{params[:tape][:voltag]}%", "%#{params[:tape][:bformat]}%", "%#{params[:tape][:btype]}%", "%#{params[:tape][:bclient]}%", "%#{params[:tape][:note]}%", "%#{params[:tape][:testcase]}%", "%#{params[:tape][:servertype]}%", "%#{params[:tape][:bug]}%"])
  end
 
  def self.backupsets(params)
-       self.find(:all, :order => :voltag,  :conditions => ["bsid like ? and server like ? and voltag like ? and bformat like ? and btype like ? and bclient like ? and note like ? and testcase like ? and servertype like ? ","%#{params[:tape][:bsid]}%", "%#{params[:tape][:server]}%", "%#{params[:tape][:voltag]}%", "%#{params[:tape][:bformat]}%", "%#{params[:tape][:btype]}%", "%#{params[:tape][:bclient]}%", "%#{params[:tape][:note]}%", "%#{params[:tape][:testcase]}%", "%#{params[:tape][:servertype]}%"])
+       self.find(:all, :order => :voltag,  :conditions => ["bsid like ? and server like ? and voltag like ? and bformat like ? and btype like ? and bclient like ? and note like ? and testcase like ? and servertype like ? and bug like ?","%#{params[:tape][:bsid]}%", "%#{params[:tape][:server]}%", "%#{params[:tape][:voltag]}%", "%#{params[:tape][:bformat]}%", "%#{params[:tape][:btype]}%", "%#{params[:tape][:bclient]}%", "%#{params[:tape][:note]}%", "%#{params[:tape][:testcase]}%", "%#{params[:tape][:servertype]}%", "%#{params[:tape][:bug]}%"])
  end
 
-  BFORMATS = ['COMMVAULT', 'LEGATO', 'TIVOLI', 'ARCSERVE', 'MTF', 'NETBACKUP', 'ULTRABAC']
+  BFORMATS = ['COMMVAULT', 'LEGATO', 'Tivoli', 'Arcserve', 'MTF', 'NBU', 'ULTRABAC']
   
   BTYPES = ['FULL', 'INCREMENTAL', 'DIFFERENTIAL', 'LEVEL 1', 'LEVEL 2', 'LEVEL 3', 'LEVEL 4', 'LEVEL 5', 'LEVEL 6', 'LEVEL 7', 'LEVEL 8', 'LEVEL 9', 'USER', 'UNKNOWN']
 

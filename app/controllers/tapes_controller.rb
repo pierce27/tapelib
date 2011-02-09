@@ -86,7 +86,7 @@ class TapesController < ApplicationController
 
 
   def updatetape
-    @tapes = Tape.find(:all, :order => :voltag,  :conditions => ["voltag like ?", "%#{params[:tape][:voltag]}%"])
+    @tapes = Tape.find(:all, :order => :voltag,  :conditions => ["voltag like ?", "%%"])
     
    @tapes.each do |tape|  
       tape.update_attributes(params[:tape])
