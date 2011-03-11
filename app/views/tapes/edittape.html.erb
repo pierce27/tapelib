@@ -3,7 +3,7 @@
 
 <h1>Editing Tape</h1>
 
-<% form_for (@tape), :url => {:action => :updatetape} do |f| %>
+<% form_for (@tape), :url => {:action => :update} do |f| %>
   <%= f.error_messages %>
 
   <p>
@@ -21,7 +21,7 @@
   </p>
   <p>
     <%= f.label :note %><br/>
-    <%= f.text_field :note %>
+    <%= f.text_area :note %>
   </p>
   
   <p>

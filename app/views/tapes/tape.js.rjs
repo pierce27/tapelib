@@ -1,0 +1,4 @@
+  page.insert_html :bottom, :categories, :partial => @tapes
+  page.replace :flow_pagination, will_paginate(@tapes,
+    :renderer => FlowPagination::LinkRenderer)
+
