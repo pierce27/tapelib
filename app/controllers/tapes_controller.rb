@@ -57,13 +57,6 @@ class TapesController < ApplicationController
   end
 
 
-  
-
-  #EDIT Tape
-  def edittape
-   @tape = Tape.find(params[:id])
-  end
-
 
   # POST /tapes
   # POST /tapes.xml
@@ -82,25 +75,6 @@ class TapesController < ApplicationController
     end
   end
 
- 
-
-
-  def updatetape
-    @tapes = Tape.find(:all, :order => :voltag,  :conditions => ["voltag like ?", "%#{params[:tape][:voltag]}%"])
-    
-   @tapes.each do |tape|  
-      tape.update_attributes(params[:tape])
-      end
-    
-
-        flash[:notice] = 'Tape was successfully updated.'
-        redirect_to "/tapes/search" 
-
-    
-   end
-  
- 
-    
 
 
 
