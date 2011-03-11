@@ -52,14 +52,6 @@
   <b>Revision:</b>
   <%=h @tape.rev %>
 </p>
-<p>
-  <b>Note:</b>
-  <%=h @tape.note%>
-<p>
 
-<p>
- <b>TC: </b>
- <%=if @tape.testcase != 0 then link_to (@tape.testcase, "http://kama.tworiverlabs.com/bugs/tr_show_case.cgi?case_id=#{@tape.testcase}") else "none" end %>
-</p>
 <%= link_to 'Edit', edit_tape_path(@tape) %> |
 <%= link_to_function 'Back', "history.back()" %>
