@@ -1,5 +1,5 @@
 <h1><%= params[:voltag] %></h1>
-<h1><%= link_to ('Playback', "http://192.168.192.111:3000/Playbacks/#{params[:bformat]}/#{params[:voltag]}") %></h1>
+<h1><%= button_to ('Playback', "http://192.168.192.111:3000/Playbacks/#{params[:bformat]}/#{params[:voltag]}") %></h1>
 
 
 <table>
@@ -38,9 +38,8 @@
     <td><%=h tape.bclient %></td>
     <td><%=h tape.servertype %></td>
     
-    <td><%= link_to 'Details', tape %></td>
-    <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
-    <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= button_to 'Edit', edit_tape_path(tape) %></td>
+    <td><%= button_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% vol = tape.voltag %>
 <% tlabel = tape.tapelabel %>

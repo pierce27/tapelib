@@ -31,14 +31,22 @@
     <p/>
   <div>   
    
-   <div id="side" >
-     <%= link_to "Home", :controller => "user", :action => "private" %>|
-     <%= link_to "Search", :controller => :tapes, :action => "search" %>|
-     <%= link_to "New", :controller => :tapes, :action => "new" %>|
-     <%= link_to "My Tapes", :controller => :saved_tapes, :action => "mytapes"%>|
-    <%= link_to "Logout", :controller => :user, :action => "logout"%>
-<br/><br/>
+     <div id="side" >
+     <table width="600">
+       <tr>
+        <td> <%= button_to "Search", :controller => "tapes", :action => "search"%></td>
+        <td> <%= button_to "New", :controller => "tapes", :action => "new"%></td>
+        <td> <%= button_to "My Tapes", :controller => "saved_tapes", :action => "mytapes" %></td>
+        <td> <%= button_to "User Tapes",:controller => "user", :action => "users" %></td>
+        <td> <%= button_to "Browse Playbacks", "http://192.168.192.111:3000/Playbacks", :target => '_blank' %></td>
+        <td> <%= button_to "Logout",:controller => "user", :action => "logout" %></td>
+       </tr>
+     </table>
    <div>
+
+ 
+
+  <div>
    <div id = "main">
      <%= yield %>
    <div>

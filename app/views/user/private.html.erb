@@ -8,24 +8,26 @@
 
 
 
+<table width="600">
+<tr>
+ <td> <%= button_to "Search", :controller => "tapes", :action => "search"%></td>
+ <td> <%= button_to "New", :controller => "tapes", :action => "new"%></td>
+ <td> <%= button_to "My Tapes", :controller => "saved_tapes", :action => "mytapes" %></td>  
+ <td> <%= button_to "User Tapes",:controller => "user", :action => "users" %></td>
+ <td> <%= button_to "Browse Playbacks", "http://192.168.192.111:3000/Playbacks", :target => '_blank' %></td>
+ <td> <%= button_to "Logout",:controller => "user", :action => "logout" %></td>
+</tr>
+</table>
+
+<p></p>
+
 <p>
-  <%= link_to "Search", :controller => "tapes", :action => "search"%>
-<p/>
-<p>
-  <%= link_to "New", :controller => "tapes", :action => "new"%>
-<p/>
-<p>
-  <%= link_to "My Tapes", :controller => "saved_tapes", :action => "mytapes" %>
-<p/>  
-<p>
-<%= link_to "User Tapes",:controller => "user", :action => "users" %>
-<p/>
-<p>
-<%= link_to "Browse Playbacks", "http://192.168.192.111:3000/Playbacks", :target => '_blank' %>
-<p/>
-<p>
-  <%= link_to "Logout",:controller => "user", :action => "logout" %>
-<p/>
+<html>
+<body>
+<img border="0" src="http://www.theposselist.com/wp-content/uploads/2010/01/Index-Engines-logo-1.jpg" width="304" height="155" />
+</body>
+</html>
+</p>
 
 <br/>
 <p>

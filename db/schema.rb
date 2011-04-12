@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110207165751) do
+ActiveRecord::Schema.define(:version => 20110209053527) do
 
   create_table "saved_tapes", :force => true do |t|
     t.string   "voltag"
@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(:version => 20110207165751) do
     t.string   "user"
   end
 
-  create_table "tapes", :force => true do |t|
+  create_table "tapes", :id => false, :force => true do |t|
     t.string   "bsid"
     t.string   "server"
     t.integer  "backupstamp"
@@ -28,12 +28,12 @@ ActiveRecord::Schema.define(:version => 20110207165751) do
     t.string   "broot"
     t.string   "tapelabel"
     t.string   "voltag"
-    t.integer  "size",        :limit => 8
+    t.integer  "size"
     t.string   "rev"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.text     "note"
-    t.string   "bclient"
+    t.text     "bclient"
     t.integer  "testcase"
     t.boolean  "selected"
     t.integer  "bug"

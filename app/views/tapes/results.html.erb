@@ -46,7 +46,7 @@
     <%   end %>
     <%  end  %>
     
-   <td> <%= link_to 'Save', :voltag => tape.voltag, :controller => 'saved_tapes' %></td>
+   <td> <%= button_to 'Save', :voltag => tape.voltag, :controller => 'saved_tapes' %></td>
     <td><%=h tape.voltag %></td>
     <td>- -</td>
     <td><%=h tape.tapelabel %></td>
@@ -77,12 +77,12 @@
     <% end %>
     
 
-    <td><td><%= link_to 'Details', :bformat => tape.bformat, :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
-    <td><%= link_to 'Edit', edit_tape_path(tape) %></td>
-    <td><%= link_to ('Download', "http://192.168.192.111:3000/Playbacks/#{tape.bformat}/#{tape.voltag}", :target => '_blank') %></td>
+    <td><td><%= button_to 'Details', :bformat => tape.bformat, :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
+    <td><%= button_to 'Edit', edit_tape_path(tape) %></td>
+    <td><%= button_to ('Download', "http://192.168.192.111:3000/Playbacks/#{tape.bformat}/#{tape.voltag}", :target => '_blank') %></td>
 
     <% if session[:user_id] == 'admin' then %>
-    <td><%= link_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= button_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
     <% end %>
 
   </tr>
