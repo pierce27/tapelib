@@ -78,7 +78,7 @@
     
 
     <td><td><%= button_to 'Details', :bformat => tape.bformat, :voltag => tape.voltag, :controller => 'saved_tapes', :action => :yourtape %></td>
-    <td><%= button_to 'Edit', edit_tape_path(tape) %></td>
+    <td><%= button_to 'Edit', :id => tape.id, :action => 'edittape' %></td>
     <td><%= button_to ('Download', "http://192.168.192.111:3000/Playbacks/#{tape.bformat}/#{tape.voltag}", :target => '_blank') %></td>
 
     <% if session[:user_id] == 'admin' then %>
