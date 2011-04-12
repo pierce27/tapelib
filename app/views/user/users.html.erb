@@ -9,7 +9,7 @@
 
 <% @users.each do |user| %>
   <tr>
-    <td><%= link_to user.firstname, :user => user.user_name, :controller => 'saved_tapes', :action => 'theirtapes' %></td>
+    <td><%= button_to user.firstname, :user => user.user_name, :controller => 'saved_tapes', :action => 'theirtapes' %></td>
     <% if session[:user_id] == 'admin' then %>
     <td><%=h user.user_name %></td>
     <td><%=h user.password %></td>
