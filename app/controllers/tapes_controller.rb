@@ -56,6 +56,12 @@ class TapesController < ApplicationController
     @tape = Tape.find(params[:id])
   end
 
+  
+  def edittape
+    @tape = Tape.find(params[:id])
+  end
+
+
 
 
   # POST /tapes

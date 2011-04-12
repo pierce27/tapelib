@@ -14,7 +14,7 @@
     <td><%=h saved_tape.voltag %></td>
     <td><%=h saved_tape.notes %></td>
     <td><%= button_to 'View', :voltag => saved_tape.voltag, :action => :yourtape %></td>
-    <td><%= button_to 'Edit', edit_saved_tape_path(saved_tape) %></td>
+    <td><%= link_to 'Edit', edit_saved_tape_path(saved_tape) %></td>
     <td><%= button_to 'Destroy', :action => 'destroy', :id => saved_tape.id %></td>
   </tr>
 <% end %>

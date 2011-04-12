@@ -38,8 +38,8 @@
     <td><%=h tape.bclient %></td>
     <td><%=h tape.servertype %></td>
     
-    <td><%= button_to 'Edit', edit_tape_path(tape) %></td>
-    <td><%= button_to 'Destroy', tape, :confirm => 'Are you sure?', :method => :delete %></td>
+    <!td><!%= button_to 'Edit', edit_tape_path(tape) %><!/td>
+    <!td><!%= button_to 'Destroy', tape, :confirm = 'Are you sure?', :method = :delete %><!/td>
   </tr>
 <% vol = tape.voltag %>
 <% tlabel = tape.tapelabel %>
